@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link href="../style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../imagenes/pelicula (1).png" type="image/x-icon">
+    <title>CineMatrix</title>
+</head>
+
+<body>
+    <header>
+        <div class="navegacion">
+            <a class="logo" href="../index.html">
+            <h1 class="logo__nombre">Cine<span class="color">Matrix</span></h1>
+            </a>
+            <nav class="contenedor">
+                <ul>
+                    <li><a class="indice" href="../index.html">Cartelera</a></li>
+                    <li><a class="indice" href="horarios.html">Horarios</a></li>
+                    <li><a class="indice" href="combos.html">Combos</a></li>
+                    <li><a class="indice" href="precios.html">Precios</a></li>    
+                    <li><a class="indice" href="proximos-estrenos.html">Proximos Estrenos</a></li>
+                    <li><a class="indice" href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="seleccion">
+        <div class="seleccion__peliculas">
+            <select name="pelicula" id="pelicula">
+                <option value="titanic"> Titanic - 2D Cast</option>
+                <option value="Sev"> Seven - 2D Cast</option>
+                <option value="Pre"> Mujer bonita - 2D Cast</option>
+                <option value="Mat"> Matrix - 2D Cast</option>
+                <option value="Mom"> La Momia - 2D Cast</option>
+                <option value="Ang"> Mi Pobre Angelito- 2D Cast</option>
+                <option value="Gho"> Ghost - 2D Cast</option>
+                <option value="Bic"> Bichos - 2D Cast</option>
+                <option value="Ros"> Belleza Americana - 2D Cast</option>
+            </select>
+        </div>
+
+        <div class="menu">
+            <ul class="menu__numeros">
+                <li>
+                    <a class="menu__numeros__2" href="#slider1">1</a>
+                    <a class="menu__numeros__2" href="#slider2">2</a>
+                    <a class="menu__numeros__2" href="#slider3">3</a>
+                    <a class="menu__numeros__2" href="#slider4">4</a>
+                    <a class="menu__numeros__2" href="#slider5">5</a>
+                    <a class="menu__numeros__2" href="#slider6">6</a>
+                    <a class="menu__numeros__2" href="#slider7">7</a>
+                    <a class="menu__numeros__2" href="#slider8">8</a>
+                    <a class="menu__numeros__2" href="#slider9">9</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="caja">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../imagenes/titanic.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../imagenes/seven.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../imagenes/mujer-bonita.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../imagenes/matrix.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../imagenes/la-momia.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../imagenes/mi-pobre-angelito.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../imagenes/el-guardaespaldas.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../imagenes/bichos.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../imagenes/belleza-americana.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="bloque-contacto">
+            <p class="bloque__contacto">CONTACTO</p>
+        </div>
+
+        <p class="parrafo-consultas">¿Consultas? Hace Click acá</p>
+        <section class="contacto">
+            <div class=" consultas">
+                <table class="consultas__1">
+                    <tr>
+                        <th><a class="item-consulta" href="../index.html">Cartelera</a></th>
+                        <th><a class="item-consulta" href="horarios.html">Horarios</a></th>
+                        <th><a class="item-consulta" href="combos.html">Combos</a></th> 
+                </table>
+
+                <table class="consultas__2">
+                    <tr>
+                        <th><a class="item-consulta" href="precios.html">Precios</a></th>
+                        <th><a class="item-consulta" href="proximos-estrenos.html">Proximos estrenos</a></th>
+                    </tr>
+                </table>
+            </div>
+
+                <form>
+                    <ul>
+                        <li><label for="nombre">Nombre</label>
+                        <input type="text" class="field" name="Nombre" id="Nombre" required></li>
+
+                        <li><label for="email">Correo Electronico</label>
+                        <input type="email" class="field" name="email" id="email" required></li>
+
+                        <li><label for="number">Telefono</label>
+                        <input type="number" class="field" name="telefono" id="telefono" required></li>
+                    
+                        <li><label for="motivo">Motivo</label>
+                        <select name="motivo" id="motivo">
+                            <option value="Elija un motivo">Elija un motivo</option>
+                            <option value="Consulta en general">Consulta en general</option>
+                            <option value="Para hacer una critica">Para hacer una critica</option>
+                            <option value="Por una pelicula en proyeccion">Por una pelicula en proyeccion</option>
+                            <option value="Por un proximo estreno">Por un proximo estreno</option>
+                            <option value="Otro motivo diferente...">Otro motivo diferente...</option>
+                        </select></li>
+                        <li><label for="consulta">Consulta</label>
+                        <textarea class="field" name="consulta" id="consulta" cols="30" rows="10"></textarea></li>
+                        <input class="boton" type="submit" value="Enviar">   
+                    </ul> 
+                </form>
+        </section>
+    </div>
+
+    <footer>
+        <div>
+            <nav class="footer">
+                <ul class="footer__lista">
+                    <li><a class="footer__seleccion" href="../index.html">Cartelera |</a></li>
+                    <li><a class="footer__seleccion" href="horarios.html">Horarios |</a></li>
+                    <li><a class="footer__seleccion" href="combos.html">Combos |</a></li>
+                    <li><a class="footer__seleccion" href="precios.html">Precios |</a></li>
+                    <li><a class="footer__seleccion" href="proximos-estrenos.html">Proximos Estrenos |</a></li>
+                    <li><a class="footer__seleccion" href="contacto.html">Contacto |</a></li>
+                </ul>
+            </nav>
+            <p class="footer__parrafo"> © Copyright Cinematrix. Todos los derechos reservados.</p>
+        </div>
+        <div class="redes">
+            <a href="https://www.facebook.com" alt="facebook" target="__blank"><img src="../imagenes/facebook.png"></a>
+            <a href="https://www.instagram.com" alt="instagram" target="__blank"><img src="../imagenes/instagram.png"></a>
+            <a href="https://www.whatsapp.com" alt="whatsapp" target="__blank"><img src="../imagenes/whatsapp.png"></a>
+        </div>
+    </footer>
+</body>
+</html> 
