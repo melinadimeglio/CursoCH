@@ -585,7 +585,7 @@ tr:hover{
 
 .bloque-contacto{
     position: sticky;
-    top: 0;
+    top: 0px;
 }
 
 .parrafo-consultas{
