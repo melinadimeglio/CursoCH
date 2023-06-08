@@ -8,7 +8,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <link href="../css/style.css" rel="stylesheet">
     <link rel="shortcut icon" href="../imagenes/pelicula (1).png" type="image/x-icon">
     <title>CineMatrix</title>
@@ -16,26 +15,45 @@
 
 <body>
   <header>
-      <main class="main">
-        <div class="navegacion">
-            <a class="logo" href="../index.html">
-            <h1 class="logo__nombre">Cine<span class="color">Matrix</span></h1>
-            </a>
-            <nav class="contenedor">
-                <ul>
-                    <li><a class="indice" href="../index.html">Cartelera</a></li>
-                    <li><a class="indice" href="horarios.html">Horarios</a></li>
-                    <li><a class="indice" href="combos.html">Combos</a></li>
-                    <li><a class="indice" href="precios.html">Precios</a></li>    
-                    <li><a class="indice" href="proximos-estrenos.html">Proximos Estrenos</a></li>
-                    <li><a class="indice" href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-    </main>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+          <a class="navbar-brand navbar__logo" href="../index.html"><span class=color__1>Cine</span><span class="color__2">Matrix</span></a>
+          <button class="navbar-toggler navbar__button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../index.html"></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link navbar__link" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link navbar__link" href="horarios.html">Horarios</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link navbar__link" href="combos.html">Combos</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link navbar__link" href="precios.html">Precios</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link navbar__link" href="proximos-estrenos.html">Proximos estrenos</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link navbar__link" href="contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link disabled"></a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+    </nav>
   </header>
 
-    <div class="seleccion">
+  <div class="seleccion">
         <div class="seleccion__peliculas">
             <select name="pelicula" id="pelicula">
                 <option value="titanic"> Titanic - 2D Cast</option>
@@ -181,5 +199,7 @@
           <a href="https://www.whatsapp.com" alt="whatsapp" target="__blank"><img src="../imagenes/whatsapp.png"></a>
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 </body>
 </html>

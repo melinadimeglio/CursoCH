@@ -24,25 +24,31 @@ header{
     border: solid 3px black;
 }
 
-.color{
+.bg-body-tertiary{
+    background-image: url(../imagenes/fondo-negro.jpeg) !important;
+}
+.color__1{
+    color: aliceblue;
+}
+
+.color__2{
     color: rgb(146, 145, 145);
 }
 
-.navbar navbar-expand-lg navbar-light{
-    background-image: url(../imagenes/fondo-negro.jpeg);
+.navbar__button{
+    color: rgb(200, 24, 24);
+    background-color: white;
 }
 
-.navbar-brand{
-    padding: 20px;
+.navbar__logo{
     font-family:'Staatliches', cursive;
     font-size: 3.5rem;
     color: aliceblue;
 }
 
-.nav-link{
+.navbar__link{
     font-size: 2.3rem;
     font-family:'Staatliches', cursive;
-    padding: 5px;
     text-decoration: none;
     color:aliceblue;
 }
@@ -50,55 +56,6 @@ header{
 .nav-link:hover{
     color: rgb(200, 24, 24);
 }
-
-.navbar-toggler{
-    color: rgb(200, 24, 24);
-    background-color: white;
-}
-
-
-/**.navegacion{
-    display: flex;
-    justify-content: space-between;
-    align-items:  center;
-}
-
-.logo{
-    text-decoration: none;
-    color: aliceblue;
-}
-
-.logo__nombre{
-    padding: 20px;
-    font-family:'Staatliches', cursive;
-    font-size: 3.5rem;
-
-}
-
-.color{
-    color: rgb(146, 145, 145);
-}
-
-.contenedor ul li{
-    background-color: black;
-    display: inline-block;
-    padding: 10px;
-    border-radius: 5px;    
-}
-
-.indice{
-    font-size: 2.3rem;
-    font-family:'Staatliches', cursive;
-    padding: 5px;
-    text-decoration: none;
-    color:aliceblue;
-    
-}
-
-.indice:hover{
-    background-color: rgb(200, 24, 24);
-}
-**/
 
 .seleccion{
     display: flex;
