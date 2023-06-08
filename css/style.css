@@ -11,7 +11,7 @@ html{
 /** INICIO DE PAGINAS**/
 
 body{
-    background-image: url(imagenes/Copia\ de\ matrix.jpeg);
+    background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:cover;
@@ -19,7 +19,7 @@ body{
 }
 
 header{
-    background-image: url(imagenes/fondo-negro.jpeg);
+    background-image: url(../imagenes/fondo-negro.jpeg);
     background-attachment: fixed;
     border: solid 3px black;
 }
@@ -89,7 +89,7 @@ header{
 }
 
 .caja{
-    background-image: url(imagenes/fondo-blanco.jpeg);
+    background-image: url(../imagenes/fondo-blanco.jpeg);
     margin-right: 15%;
     margin-left: 15%;
     border: solid 3px black;
@@ -97,7 +97,7 @@ header{
 
 /** INDEX **/
 .bloque__cartelera{
-    background-image: url(imagenes/Copia\ de\ matrix.jpeg);
+    background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
     color: white;
     font-family: 'Staatliches', cursive;
     font-size: 3rem;
@@ -242,7 +242,7 @@ header{
 }
 .boton{
     width: 90px;
-    background-image: url(imagenes/Copia\ de\ matrix.jpeg);
+    background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
     color: white;
     font-family: 'Staatliches', cursive;
     font-size: 2rem;
@@ -260,7 +260,7 @@ header{
 }
 
 footer{
-    background-image: url(imagenes/fondo-negro.jpeg);
+    background-image: url(../imagenes/fondo-negro.jpeg);
     color: grey;
     font-size: 1.3rem;
     font-family: Arial, Helvetica, sans-serif;
@@ -298,7 +298,7 @@ footer nav{
 /** HORARIOS **/
 .bloque__horarios{
     background-color: rgb(66, 65, 65);
-    background-image: url(imagenes/Copia\ de\ matrix.jpeg);
+    background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
     color: white;
     font-family: 'Staatliches', cursive;
     font-size: 3rem;
@@ -404,7 +404,7 @@ footer nav{
 
 .bloque__combos{
     background-color: rgb(66, 65, 65);
-    background-image: url(imagenes/Copia\ de\ matrix.jpeg);
+    background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
     color: white;
     font-family: 'Staatliches', cursive;
     font-size: 3rem;
@@ -460,7 +460,7 @@ footer nav{
 /** PRECIOS **/
 .bloque__precios{
     background-color: rgb(66, 65, 65);
-    background-image: url(imagenes/Copia\ de\ matrix.jpeg);
+    background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
     color: white;
     font-family: 'Staatliches', cursive;
     font-size: 3rem;
@@ -545,7 +545,7 @@ tr:hover{
 /** PROXIMOS ESTRENOS **/
 .bloque__proximos-estrenos{
     background-color: rgb(66, 65, 65);
-    background-image: url(imagenes/Copia\ de\ matrix.jpeg);
+    background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
     color: white;
     font-family: 'Staatliches', cursive;
     font-size: 3rem;
@@ -574,7 +574,7 @@ tr:hover{
 /** CONTACTO **/
 .bloque__contacto{
     background-color: rgb(66, 65, 65);
-    background-image: url(imagenes/Copia\ de\ matrix.jpeg);
+    background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
     color: white;
     font-family: 'Staatliches', cursive;
     font-size: 3rem;
