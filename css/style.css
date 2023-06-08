@@ -67,15 +67,16 @@ header{
 }
 
 
-.menu{
-    text-decoration: none;
-    display: inline-block;
-}
-
-.menu__numeros__2{
+.menu ul li a{
+    font-size: 20px;
+    color: black;
+    font-family: 'Arial';
+    background-color: grey;
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
     text-decoration: none; 
-    color: aliceblue;  
-    font-size: 2rem; 
+    align-self: center;
 }
 
 .caja{
@@ -802,6 +803,9 @@ form{
 .medios table{
     width: 100%;
     flex-direction: column;
+}
+.redes{
+    display: none;
 }
 }
 
