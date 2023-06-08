@@ -9,7 +9,6 @@ html{
 }
 
 /** INICIO DE PAGINAS**/
-
 body{
     background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
     background-attachment: fixed;
@@ -388,11 +387,9 @@ footer nav{
 .funciones:hover{
     background-color: rgb(200, 24, 24);
 }
-
 /** FIN HORARIOS **/
 
 /** COMBOS **/
-
 .bloque__combos{
     background-color: rgb(66, 65, 65);
     background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
@@ -403,7 +400,6 @@ footer nav{
     border-top: solid 5px black;
     border-bottom: solid 5px black;
 }
-
 
 .combos{
     display: grid;
@@ -445,7 +441,6 @@ footer nav{
     margin: 30px;
     text-align: center;
 }
-
 /** FIN COMBOS **/
 
 /** PRECIOS **/
@@ -550,17 +545,11 @@ tr:hover{
     top: 0;
 }
 
-.slider__img1{
-    width: 100%;
-    height: 600px;
-    left: 0;
-    position: sticky;
-    object-fit: cover;
-    scroll-snap-align: center;
-    border-radius: 5px;
+.h-100{
+    height: 600px!important;
 }
-
 /** FIN PROXIMOS ESTRENOS**/
+
 
 /** CONTACTO **/
 .bloque__contacto{
@@ -634,7 +623,8 @@ input, textarea{
 }
 /** FIN CONTACTO **/
 
-/** MQ**/
+/** MQ **/
+/** TABLET **/
 @media screen and (max-width: 768px){
     body{
         background-image: none;
@@ -669,10 +659,15 @@ input, textarea{
     }
 }
 
+.h-100{
+    height: 300px;
+}
+
 .parrafo-consultas{
     margin-left: 120px;
 }
     
+/** MOBILE **/
 @media screen and (max-width: 500px){
     .contenedorTotal{
         grid-template-columns: 0.7fr 1fr;
@@ -776,6 +771,11 @@ input, textarea{
     justify-content: center;
     justify-items: center;
 }
+
+.h-100{
+    height: 300px!important;
+}
+
 .parrafo-consultas{
     display: none;
 }
