@@ -23,14 +23,14 @@ header{
     border: solid 3px black;
 }
 
-header nav .bg-body-tertiary{
+.bg-body-tertiary{
     background-image: url(../imagenes/fondo-negro.jpeg) !important;
 }
-header nav div a .color__1{
+.color__1{
     color: aliceblue;
 }
 
-header nav div a .color__2{
+.color__2{
     color: rgb(146, 145, 145);
 }
 
@@ -39,20 +39,20 @@ header nav div a .color__2{
     background-color: white;
 }
 
-div a.navbar__logo{
+.navbar__logo{
     font-family:'Staatliches', cursive;
     font-size: 3.5rem;
     color: aliceblue;
 }
 
-div ul li a.navbar__link{
+.navbar__link{
     font-size: 2.3rem;
     font-family:'Staatliches', cursive;
     text-decoration: none;
     color:aliceblue;
 }
 
-div ul li a.nav-link:hover{
+.nav-link:hover{
     color: rgb(200, 24, 24);
 }
 
@@ -179,6 +179,7 @@ div ul li a.nav-link:hover{
 .img-1 {
     grid-area: imagen;
     justify-self: center;
+
 }
 
 .titulo__pelicula{
@@ -225,6 +226,10 @@ div ul li a.nav-link:hover{
     width: 95%;
 }
 
+.botonClase{
+    display: flex;
+    justify-content: center;
+}
 .boton{
     width: 90px;
     background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
@@ -232,6 +237,16 @@ div ul li a.nav-link:hover{
     font-family: 'Staatliches', cursive;
     font-size: 2rem;
     padding: 10px;
+}
+
+.parrafo-trailer{
+    display: inline-block;
+    font-family: 'Staatliches', cursive;
+    font-size:30px;
+    border:dashed 3px black;
+    padding: 3px;
+    margin: 0px 470px;
+    
 }
 
 footer{
@@ -418,7 +433,14 @@ footer nav{
     position: sticky;
     top: 0;
 }
-
+.parrafo__combo{
+    font-family: 'Staatliches', cursive;
+    font-size: 2rem;
+    border:dashed 3px black;
+    padding: 3px;
+    margin: 30px;
+    text-align: center;
+}
 /** FIN COMBOS **/
 
 /** PRECIOS **/
@@ -457,6 +479,15 @@ footer nav{
     justify-content: space-around;
     align-items: center;
     margin: 30px;
+}
+
+.barra{
+    background-color: rgb(200, 24, 24);
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: 3rem;
+    text-align: center;
+    margin:0px 0px;
 }
 
 table{
@@ -560,6 +591,7 @@ tr:hover{
 
 .consultas__2{
     margin:10px 15px;
+
 }
 
 .item-consulta{
