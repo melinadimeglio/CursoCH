@@ -1,0 +1,88 @@
+.precios{
+    position: sticky;
+    top: 0;
+    .bloque__precios{
+        background-color: rgb(66, 65, 65);
+        background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
+        color: white;
+        font-family: $letraPrincipal;
+        font-size: 3rem;
+        text-align: center;
+        border-top: solid 5px black;
+        border-bottom: solid 5px black;
+    }
+}
+.precios-pagos{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    .parrafo{
+        font-family: $letraPrincipal;
+        font-size: 3rem;
+        border:dashed 3px black;
+        padding: 3px;
+        display: inline-block;
+    }
+}
+.tabla__precios{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+    table{
+        background-color: grey;
+        border: solid 1px black;
+        color: aliceblue;
+        table-layout: fixed;
+        border-collapse: collapse;
+        font-family: $letraPrincipal;
+        font-size: 3rem;
+        tr{
+            &:hover{
+                background-color: $colorPrincipal;
+            }
+            th{
+                background-color: black;
+                padding: 20px 15px;
+                text-transform: uppercase;
+                &:hover{
+                    background-color: brown;
+                }
+            }
+            td{
+                padding:15px;
+                border-bottom: solid 1px;
+                &:hover{
+                    background-color: tomato; 
+                }
+            }
+        }
+    }
+    .medios{
+        width: 100%;
+        display: inline-block;
+        margin: 40px;
+        table{
+            background-color: grey;
+            border: solid 1px black;
+            color: aliceblue;
+            table-layout: fixed;
+            border-collapse: collapse;
+            font-family: $letraPrincipal;
+            font-size: 3rem;
+            tr{
+                &:hover{
+                    background-color: $colorPrincipal;
+                }
+                th{
+                    background-color: black;
+                    padding: 20px 15px;
+                    text-transform: uppercase;
+                    &:hover{
+                        background-color: brown;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,3 +1,325 @@
+.bloque-combos {
+  position: sticky;
+  top: 0;
+}
+.bloque-combos .bloque__combos {
+  background-color: rgb(66, 65, 65);
+  background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
+  color: white;
+  font-family: "Staatliches", cursive;
+  font-size: 3rem;
+  text-align: center;
+  border-top: solid 5px black;
+  border-bottom: solid 5px black;
+}
+
+.combos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "combo1 combo2" "combo3 combo4";
+  justify-content: center;
+  justify-items: center;
+  margin-bottom: 15px;
+}
+.combos .combos__1 {
+  grid-area: combo1;
+}
+.combos .combos__2 {
+  grid-area: combo2;
+}
+.combos .combos__3 {
+  grid-area: combo3;
+}
+.combos .combos__4 {
+  grid-area: combo4;
+}
+.combos .horarios__p {
+  font-family: "Staatliches", cursive;
+  width: 100%;
+  font-size: 1.5rem;
+  border: dashed 3px black;
+  padding: 5px;
+  text-align: center;
+}
+
+.bloque {
+  position: sticky;
+  top: 0;
+}
+.bloque .bloque__horarios {
+  background-color: rgb(66, 65, 65);
+  background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
+  color: white;
+  font-family: "Staatliches", cursive;
+  font-size: 3rem;
+  text-align: center;
+  border-top: solid 5px black;
+  border-bottom: solid 5px black;
+}
+
+.horarios {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "horarios__1 horarios__2 horarios__3" "horarios__4 horarios__5 horarios__6" "horarios__7 horarios__8 horarios__9";
+  grid-gap: 10px;
+}
+.horarios .horarios__1_img {
+  width: 100%;
+  height: 90%;
+  grid-area: horarios__1;
+}
+.horarios .horarios__2_img {
+  width: 100%;
+  height: 90%;
+  grid-area: horarios__2;
+}
+.horarios .horarios__3_img {
+  width: 100%;
+  height: 90%;
+  grid-area: horarios__3;
+}
+.horarios .horarios__4_img {
+  width: 100%;
+  height: 90%;
+  grid-area: horarios__4;
+}
+.horarios .horarios__5_img {
+  width: 100%;
+  height: 90%;
+  grid-area: horarios__5;
+}
+.horarios .horarios__6_img {
+  width: 100%;
+  height: 90%;
+  grid-area: horarios__6;
+}
+.horarios .horarios__7_img {
+  width: 100%;
+  height: 90%;
+  grid-area: horarios__7;
+}
+.horarios .horarios__8_img {
+  width: 100%;
+  height: 90%;
+  grid-area: horarios__8;
+}
+.horarios .horarios__9_img {
+  width: 100%;
+  height: 90%;
+  grid-area: horarios__9;
+}
+.horarios .horarios__p {
+  font-family: "Staatliches", cursive;
+  width: 100%;
+  font-size: 1.5rem;
+  border: dashed 3px black;
+  padding: 5px;
+  text-align: center;
+}
+.horarios .horarios__p .funciones {
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 3px;
+  margin: 1px;
+}
+.horarios .horarios__p .funciones:hover {
+  background-color: rgb(200, 24, 24);
+}
+
+.precios {
+  position: sticky;
+  top: 0;
+}
+.precios .bloque__precios {
+  background-color: rgb(66, 65, 65);
+  background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
+  color: white;
+  font-family: "Staatliches", cursive;
+  font-size: 3rem;
+  text-align: center;
+  border-top: solid 5px black;
+  border-bottom: solid 5px black;
+}
+
+.precios-pagos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.precios-pagos .parrafo {
+  font-family: "Staatliches", cursive;
+  font-size: 3rem;
+  border: dashed 3px black;
+  padding: 3px;
+  display: inline-block;
+}
+
+.tabla__precios {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px;
+}
+.tabla__precios table {
+  background-color: grey;
+  border: solid 1px black;
+  color: aliceblue;
+  table-layout: fixed;
+  border-collapse: collapse;
+  font-family: "Staatliches", cursive;
+  font-size: 3rem;
+}
+.tabla__precios table tr:hover {
+  background-color: rgb(200, 24, 24);
+}
+.tabla__precios table tr th {
+  background-color: black;
+  padding: 20px 15px;
+  text-transform: uppercase;
+}
+.tabla__precios table tr th:hover {
+  background-color: brown;
+}
+.tabla__precios table tr td {
+  padding: 15px;
+  border-bottom: solid 1px;
+}
+.tabla__precios table tr td:hover {
+  background-color: tomato;
+}
+.tabla__precios .medios {
+  width: 100%;
+  display: inline-block;
+  margin: 40px;
+}
+.tabla__precios .medios table {
+  background-color: grey;
+  border: solid 1px black;
+  color: aliceblue;
+  table-layout: fixed;
+  border-collapse: collapse;
+  font-family: "Staatliches", cursive;
+  font-size: 3rem;
+}
+.tabla__precios .medios table tr:hover {
+  background-color: rgb(200, 24, 24);
+}
+.tabla__precios .medios table tr th {
+  background-color: black;
+  padding: 20px 15px;
+  text-transform: uppercase;
+}
+.tabla__precios .medios table tr th:hover {
+  background-color: brown;
+}
+
+.bloque-contacto {
+  position: sticky;
+  top: 0px;
+}
+.bloque-contacto .bloque__contacto {
+  background-color: rgb(66, 65, 65);
+  background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
+  color: white;
+  font-family: "Staatliches", cursive;
+  font-size: 3rem;
+  text-align: center;
+  border-top: solid 5px black;
+  border-bottom: solid 5px black;
+}
+
+.parrafo-consultas {
+  font-family: "Staatliches", cursive;
+  font-size: 3rem;
+  border: dashed 3px black;
+  padding: 3px;
+  display: inline-block;
+  margin-left: 180px;
+}
+
+.contacto {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -30px;
+  margin-left: 40px;
+}
+.contacto .consultas {
+  margin-left: 20px;
+}
+.contacto .consultas table {
+  background-color: grey;
+  border: solid 1px black;
+  color: aliceblue;
+  table-layout: fixed;
+  border-collapse: collapse;
+  font-family: "Staatliches", cursive;
+  font-size: 3rem;
+}
+.contacto .consultas table th {
+  background-color: black;
+  padding: 20px 15px;
+  text-transform: uppercase;
+}
+.contacto .consultas table th .item-consulta {
+  text-decoration: none;
+  color: white;
+}
+.contacto .consultas .consultas__2 {
+  margin: 10px 15px;
+}
+
+form {
+  background-color: white;
+  padding: 10px;
+  width: 30%;
+  color: black;
+  border: dashed 3px black;
+  font-family: "Staatliches", cursive;
+  margin-bottom: 30px;
+}
+form ul {
+  padding: 0px;
+}
+form ul li {
+  list-style: none;
+  padding: 1px;
+}
+form ul li input, form ul li textarea {
+  width: 100%;
+  height: 80%;
+}
+form ul .boton {
+  width: 90px;
+  background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
+  color: white;
+  font-family: "Staatliches", cursive;
+  font-size: 2rem;
+  padding: 10px;
+}
+
+/** PROXIMOS ESTRENOS **/
+.cartelera {
+  position: sticky;
+  top: 0;
+}
+.cartelera .bloque__proximos-estrenos {
+  background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
+  color: white;
+  font-family: "Staatliches", cursive;
+  font-size: 3rem;
+  text-align: center;
+  margin: 0px 0px;
+  border-top: solid 5px black;
+  border-bottom: solid 5px black;
+}
+
+.h-100 {
+  height: 600px !important;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -14,36 +336,37 @@ body {
   background-size: cover;
   background-position: 100%;
 }
-body header {
+
+header {
   background-image: url(../imagenes/fondo-negro.jpeg);
   background-attachment: fixed;
   border: solid 3px black;
 }
-body header .bg-body-tertiary {
+header .bg-body-tertiary {
   background-image: url(../imagenes/fondo-negro.jpeg) !important;
 }
-body header .bg-body-tertiary .navbar__button {
+header .bg-body-tertiary .navbar__button {
   color: rgb(200, 24, 24);
   background-color: white;
 }
-body header .bg-body-tertiary a.navbar__logo {
+header .bg-body-tertiary a.navbar__logo {
   font-family: "Staatliches", cursive;
   font-size: 3.5rem;
   color: aliceblue;
 }
-body header .bg-body-tertiary a.navbar__logo .color__1 {
+header .bg-body-tertiary a.navbar__logo .color__1 {
   color: aliceblue;
 }
-body header .bg-body-tertiary a.navbar__logo .color__2 {
+header .bg-body-tertiary a.navbar__logo .color__2 {
   color: rgb(146, 145, 145);
 }
-body a.navbar__link {
+header a.navbar__link {
   font-size: 2.3rem;
   font-family: "Staatliches", cursive;
   text-decoration: none;
   color: aliceblue;
 }
-body a.navbar__link:hover {
+header a.navbar__link:hover {
   color: rgb(200, 24, 24);
 }
 
@@ -231,337 +554,6 @@ footer .redes img {
 }
 
 /** FIN CARTELERA **/
-/** HORARIOS **/
-.bloque {
-  position: sticky;
-  top: 0;
-}
-.bloque .bloque__horarios {
-  background-color: rgb(66, 65, 65);
-  background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
-  color: white;
-  font-family: "Staatliches", cursive;
-  font-size: 3rem;
-  text-align: center;
-  border-top: solid 5px black;
-  border-bottom: solid 5px black;
-}
-
-.horarios {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-areas: "horarios__1 horarios__2 horarios__3" "horarios__4 horarios__5 horarios__6" "horarios__7 horarios__8 horarios__9";
-  grid-gap: 10px;
-}
-.horarios .horarios__1_img {
-  width: 100%;
-  height: 90%;
-  grid-area: horarios__1;
-}
-.horarios .horarios__2_img {
-  width: 100%;
-  height: 90%;
-  grid-area: horarios__2;
-}
-.horarios .horarios__3_img {
-  width: 100%;
-  height: 90%;
-  grid-area: horarios__3;
-}
-.horarios .horarios__4_img {
-  width: 100%;
-  height: 90%;
-  grid-area: horarios__4;
-}
-.horarios .horarios__5_img {
-  width: 100%;
-  height: 90%;
-  grid-area: horarios__5;
-}
-.horarios .horarios__6_img {
-  width: 100%;
-  height: 90%;
-  grid-area: horarios__6;
-}
-.horarios .horarios__7_img {
-  width: 100%;
-  height: 90%;
-  grid-area: horarios__7;
-}
-.horarios .horarios__8_img {
-  width: 100%;
-  height: 90%;
-  grid-area: horarios__8;
-}
-.horarios .horarios__9_img {
-  width: 100%;
-  height: 90%;
-  grid-area: horarios__9;
-}
-.horarios .horarios__p {
-  font-family: "Staatliches", cursive;
-  width: 100%;
-  font-size: 1.5rem;
-  border: dashed 3px black;
-  padding: 5px;
-  text-align: center;
-}
-.horarios .horarios__p .funciones {
-  background-color: black;
-  color: whitesmoke;
-  border-radius: 3px;
-  margin: 1px;
-}
-.horarios .horarios__p .funciones:hover {
-  background-color: rgb(200, 24, 24);
-}
-
-/** FIN HORARIOS **/
-/** COMBOS **/
-.bloque-combos {
-  position: sticky;
-  top: 0;
-}
-.bloque-combos .bloque__combos {
-  background-color: rgb(66, 65, 65);
-  background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
-  color: white;
-  font-family: "Staatliches", cursive;
-  font-size: 3rem;
-  text-align: center;
-  border-top: solid 5px black;
-  border-bottom: solid 5px black;
-}
-
-.combos {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-areas: "combo1 combo2" "combo3 combo4";
-  justify-content: center;
-  justify-items: center;
-  margin-bottom: 15px;
-}
-.combos .combos__1 {
-  grid-area: combo1;
-}
-.combos .combos__2 {
-  grid-area: combo2;
-}
-.combos .combos__3 {
-  grid-area: combo3;
-}
-.combos .combos__4 {
-  grid-area: combo4;
-}
-.combos .horarios__p {
-  font-family: "Staatliches", cursive;
-  width: 100%;
-  font-size: 1.5rem;
-  border: dashed 3px black;
-  padding: 5px;
-  text-align: center;
-}
-
-/** FIN COMBOS **/
-/** PRECIOS **/
-.precios {
-  position: sticky;
-  top: 0;
-}
-.precios .bloque__precios {
-  background-color: rgb(66, 65, 65);
-  background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
-  color: white;
-  font-family: "Staatliches", cursive;
-  font-size: 3rem;
-  text-align: center;
-  border-top: solid 5px black;
-  border-bottom: solid 5px black;
-}
-
-.precios-pagos {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.precios-pagos .parrafo {
-  font-family: "Staatliches", cursive;
-  font-size: 3rem;
-  border: dashed 3px black;
-  padding: 3px;
-  display: inline-block;
-}
-
-.tabla__precios {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 30px;
-}
-.tabla__precios table {
-  background-color: grey;
-  border: solid 1px black;
-  color: aliceblue;
-  table-layout: fixed;
-  border-collapse: collapse;
-  font-family: "Staatliches", cursive;
-  font-size: 3rem;
-}
-.tabla__precios table tr:hover {
-  background-color: rgb(255, 0, 0);
-}
-.tabla__precios table tr th {
-  background-color: black;
-  padding: 20px 15px;
-  text-transform: uppercase;
-}
-.tabla__precios table tr th:hover {
-  background-color: brown;
-}
-.tabla__precios table tr td {
-  padding: 15px;
-  border-bottom: solid 1px;
-}
-.tabla__precios table tr td:hover {
-  background-color: tomato;
-}
-.tabla__precios .medios {
-  width: 100%;
-  display: inline-block;
-  margin: 40px;
-}
-.tabla__precios .medios table {
-  background-color: grey;
-  border: solid 1px black;
-  color: aliceblue;
-  table-layout: fixed;
-  border-collapse: collapse;
-  font-family: "Staatliches", cursive;
-  font-size: 3rem;
-}
-.tabla__precios .medios table tr:hover {
-  background-color: rgb(255, 0, 0);
-}
-.tabla__precios .medios table tr th {
-  background-color: black;
-  padding: 20px 15px;
-  text-transform: uppercase;
-}
-.tabla__precios .medios table tr th:hover {
-  background-color: brown;
-}
-
-/** FIN PRECIOS **/
-/** PROXIMOS ESTRENOS **/
-.cartelera {
-  position: sticky;
-  top: 0;
-}
-.cartelera .bloque__proximos-estrenos {
-  background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
-  color: white;
-  font-family: "Staatliches", cursive;
-  font-size: 3rem;
-  text-align: center;
-  margin: 0px 0px;
-  border-top: solid 5px black;
-  border-bottom: solid 5px black;
-}
-
-.h-100 {
-  height: 600px !important;
-}
-
-/** FIN PROXIMOS ESTRENOS **/
-/** CONTACTO **/
-.bloque-contacto {
-  position: sticky;
-  top: 0px;
-}
-.bloque-contacto .bloque__contacto {
-  background-color: rgb(66, 65, 65);
-  background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
-  color: white;
-  font-family: "Staatliches", cursive;
-  font-size: 3rem;
-  text-align: center;
-  border-top: solid 5px black;
-  border-bottom: solid 5px black;
-}
-
-.parrafo-consultas {
-  font-family: "Staatliches", cursive;
-  font-size: 3rem;
-  border: dashed 3px black;
-  padding: 3px;
-  display: inline-block;
-  margin-left: 180px;
-}
-
-.contacto {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: -30px;
-  margin-left: 40px;
-}
-.contacto .consultas {
-  margin-left: 20px;
-}
-.contacto .consultas table {
-  background-color: grey;
-  border: solid 1px black;
-  color: aliceblue;
-  table-layout: fixed;
-  border-collapse: collapse;
-  font-family: "Staatliches", cursive;
-  font-size: 3rem;
-}
-.contacto .consultas table th {
-  background-color: black;
-  padding: 20px 15px;
-  text-transform: uppercase;
-}
-.contacto .consultas table th .item-consulta {
-  text-decoration: none;
-  color: white;
-}
-.contacto .consultas .consultas__2 {
-  margin: 10px 15px;
-}
-
-form {
-  background-color: white;
-  padding: 10px;
-  width: 30%;
-  color: black;
-  border: dashed 3px black;
-  font-family: "Staatliches", cursive;
-  margin-bottom: 30px;
-}
-form ul {
-  padding: 0px;
-}
-form ul li {
-  list-style: none;
-  padding: 1px;
-}
-form ul li input, form ul li textarea {
-  width: 100%;
-  height: 80%;
-}
-form ul .boton {
-  width: 90px;
-  background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
-  color: white;
-  font-family: "Staatliches", cursive;
-  font-size: 2rem;
-  padding: 10px;
-}
-
-/** FIN CONTACTOS **/
 /** MQ **/
 /** TABLET **/
 @media screen and (max-width: 768px) {
@@ -598,24 +590,25 @@ form ul .boton {
 }
 /** MOBILE **/
 @media screen and (max-width: 500px) {
-  .contenedorTotal {
+  .caja .contenedorTotal {
     grid-template-columns: 0.7fr 1fr;
     grid-template-rows: 0.5fr;
     grid-template-areas: "imagen caracteristicas" "sinopsis sinopsis";
     margin-top: 20px;
   }
-  .contenedorTotal .img-1 {
+  .caja .contenedorTotal .img-1 {
+    grid-area: imagen;
     margin-left: 30px;
     height: 70%;
     align-self: center;
   }
-  .contenedorTotal .caracteristicas {
+  .caja .contenedorTotal .caracteristicas {
     grid-area: caracteristicas;
   }
-  .contenedorTotal .sinopsis {
+  .caja .contenedorTotal .sinopsis {
     grid-area: sinopsis;
   }
-  .contenedorTotal .video {
+  .caja .contenedorTotal .video {
     display: none;
   }
   .horarios {
@@ -661,6 +654,9 @@ form ul .boton {
   .horarios .horarios__9_img {
     width: 100%;
     height: 70%;
+  }
+  .h-100 {
+    height: 300px !important;
   }
   .combos {
     display: grid;

@@ -1,0 +1,81 @@
+.bloque-contacto{
+    position: sticky;
+    top: 0px;
+    .bloque__contacto{
+        background-color: rgb(66, 65, 65);
+        background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
+        color: white;
+        font-family: $letraPrincipal;
+        font-size: 3rem;
+        text-align: center;
+        border-top: solid 5px black;
+        border-bottom: solid 5px black;
+    }
+}
+.parrafo-consultas{
+    font-family: 'Staatliches', cursive;
+    font-size: 3rem;
+    border:dashed 3px black;
+    padding: 3px;
+    display: inline-block;
+    margin-left: 180px;
+}
+.contacto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -30px;
+    margin-left: 40px;
+    .consultas{
+        margin-left: 20px;
+        table{
+            background-color: grey;
+            border: solid 1px black;
+            color: aliceblue;
+            table-layout: fixed;
+            border-collapse: collapse;
+            font-family: $letraPrincipal;
+            font-size: 3rem;
+            th{
+                background-color: black;
+                padding: 20px 15px;
+                text-transform: uppercase;
+                .item-consulta{
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+        .consultas__2{
+            margin:10px 15px;
+        }
+    }
+}
+form{
+    background-color: white;
+    padding: 10px;
+    width: 30%;
+    color: black;
+    border: dashed 3px black;
+    font-family: $letraPrincipal;
+    margin-bottom: 30px;    
+    ul{
+        padding: 0px;
+        li{
+            list-style: none;
+            padding: 1px;
+            input, textarea{
+                width: 100%;
+                height: 80%;
+            }
+        }
+        .boton{
+            width: 90px;
+            background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
+            color: white;
+            font-family: $letraPrincipal;
+            font-size: 2rem;
+            padding: 10px;
+        }  
+    }
+}

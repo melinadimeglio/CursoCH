@@ -647,6 +647,7 @@ input, textarea{
     }
 
     .img-1{
+        grid-area: imagen;
         margin-left: 30px;
         height: 70%;
         align-self: center;

@@ -1,0 +1,49 @@
+.bloque-combos{
+    position: sticky;
+    top: 0;
+    .bloque__combos{
+        background-color: rgb(66, 65, 65);
+        background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
+        color: white;
+        font-family: $letraPrincipal;
+        font-size: 3rem;
+        text-align: center;
+        border-top: solid 5px black;
+        border-bottom: solid 5px black;
+    }
+}
+
+.combos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+    "combo1 combo2"
+    "combo3 combo4";
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 15px;
+    .combos__1{
+        grid-area: combo1;
+    }
+    
+    .combos__2{
+        grid-area: combo2;
+    }
+    
+    .combos__3{
+        grid-area: combo3;
+    }
+    
+    .combos__4{
+        grid-area: combo4;
+    }
+    .horarios__p{
+        font-family: $letraPrincipal;
+        width: 100%;
+        font-size: 1.5rem;
+        border:dashed 3px black;
+        padding: 5px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,19 @@
+/** PROXIMOS ESTRENOS **/
+.cartelera{
+    position: sticky;
+    top: 0;
+    .bloque__proximos-estrenos{
+        background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
+        color: white;
+        font-family: $letraPrincipal;
+        font-size: 3rem;
+        text-align: center;
+        margin:0px 0px;
+        border-top: solid 5px black;
+        border-bottom: solid 5px black;
+    }
+}
+.h-100{
+    height: 600px!important;
+}
+
