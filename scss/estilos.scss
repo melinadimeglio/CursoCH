@@ -84,6 +84,7 @@ body{
         .cartelera{
             position: sticky;
             top: 0;
+            z-index: 3;
             .bloque__cartelera{
                 background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
                 color: white;
@@ -93,6 +94,7 @@ body{
                 margin:0px 0px;
                 border-top: solid 5px black;
                 border-bottom: solid 5px black;
+                
             }
         }
 
@@ -100,7 +102,8 @@ body{
             width: 100%;
             height: 90%;
             margin-left: 3%;
-            box-shadow: 2px 1px 1px 1px rgba(11, 10, 10, 0.3);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+            border: dashed 3px black;
         }
 
         .contenedorTotal {
@@ -111,7 +114,7 @@ body{
             grid-template-columns: 30% 70%;
             grid-template-rows: 50% 40%;
             justify-content: center;
-            .img-1 {
+            .img-1{
                 grid-area: imagen;
                 justify-self: center;
                 .imagen__1{
@@ -402,15 +405,22 @@ body{
         margin-top: 50px;
     }
 
+
+    .precios-pagos p{
+        width: 33%;
+        text-align: center;
+    }
+    
     .tabla__precios{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        margin: 30px;
-        .medios table{
-            width: 100%;
-            flex-direction: column;
+        display: grid;
+        text-align: center;
+        .medios{
+            margin: 0;
+            table{
+                width: 100%;
+                font-size: 1.5rem;
+                margin: 0px;
+            }
         }
     }
 

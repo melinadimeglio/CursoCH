@@ -761,18 +761,25 @@ form{
     margin-top: 50px;
 }
 
-.tabla__precios{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    margin: 30px;
+.precios-pagos p{
+    width: 33%;
+    text-align: center;
 }
 
+.tabla__precios{
+    display: grid;
+    text-align: center;
+}
+
+.medios{
+    margin: 0;
+}
 .medios table{
     width: 100%;
-    flex-direction: column;
+    font-size: 1.5rem;
+    margin: 0px;
 }
+
 .redes{
     display: none;
 }

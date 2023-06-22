@@ -1,6 +1,7 @@
 .bloque-combos{
     position: sticky;
     top: 0;
+    z-index: 3;
     .bloque__combos{
         background-color: rgb(66, 65, 65);
         background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
@@ -38,12 +39,17 @@
     .combos__4{
         grid-area: combo4;
     }
-    .horarios__p{
+    .combos__p{
         font-family: $letraPrincipal;
         width: 100%;
         font-size: 1.5rem;
         border:dashed 3px black;
         padding: 5px;
         text-align: center;
+        margin-top: 10px;
+        background-color: #f5b528;
+    }
+    .combos-imagen{
+        border: dashed 3px black;
     }
 }
