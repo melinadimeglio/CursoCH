@@ -95,6 +95,14 @@ body{
                 border-bottom: solid 5px black;
             }
         }
+
+        @mixin imagen{
+            width: 100%;
+            height: 90%;
+            margin-left: 3%;
+            box-shadow: 2px 1px 1px 1px rgba(11, 10, 10, 0.3);
+        }
+
         .contenedorTotal {
             display: grid;
             grid-template-areas:
@@ -107,66 +115,39 @@ body{
                 grid-area: imagen;
                 justify-self: center;
                 .imagen__1{
-                    width: 100%;
-                    height: 90%;  
-                    margin-top:30px;
-                    box-shadow: 2px 1px 1px 1px rgba(11, 10, 10, 0.3);
-                    margin-left: 3%;
+                    @include imagen;
+                    margin-top: 10%;
                 }
                 .imagen__2{
-                    width: 100%;
-                    height: 90%;
-                    margin-left: 3%;
-                    box-shadow: 2px 1px 1px 1px rgba(11, 10, 10, 0.3);
+                    @include imagen;
                 }
                 .imagen__3{
-                    width: 100%;
-                    height: 90%;
-                    margin-left: 3%;
-                    box-shadow: 2px 1px 1px 1px rgba(11, 10, 10, 0.3);
+                    @include imagen;
                 }
                 .imagen__4{
-                    width: 100%;
-                    height: 90%;
-                    margin-left: 3%;
-                    box-shadow: 2px 1px 1px 1px rgba(11, 10, 10, 0.3);
+                    @include imagen;
                     }
                 .imagen__5{
-                    width: 100%;
-                    height: 90%;
-                    margin-left: 3%;
-                    box-shadow: 2px 1px 1px 1px rgba(11, 10, 10, 0.3);
+                    @include imagen;
                 }
 
                 .imagen__6{
-                    width: 100%;
-                    height: 90%;
-                    margin-left: 3%;
-                    box-shadow: 2px 1px 1px 1px rgba(11, 10, 10, 0.3);
+                    @include imagen;
                 }
 
                 .imagen__7{
-                    width: 100%;
-                    height: 90%;
-                    margin-left: 3%;
-                    box-shadow: 2px 1px 1px 1px rgba(11, 10, 10, 0.3);
+                    @include imagen;
                 }
 
                 .imagen__8{
-                    width: 100%;
-                    height:90%;
-                    margin-left: 3%;
-                    box-shadow: 2px 1px 1px 1px rgba(11, 10, 10, 0.3);
+                    @include imagen;
                 }
 
                 .imagen__9{
-                    width: 100%;
-                    height: 90%;
-                    margin-left: 3%;
-                    box-shadow: 2px 1px 1px 1px rgba(11, 10, 10, 0.3);
+                    @include imagen;
                 }
             }
-            
+
             .sinopsis {
                 grid-area: sinopsis;
                 list-style: none;
