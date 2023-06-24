@@ -1,17 +1,11 @@
-.bloque-combos {
-  position: sticky;
-  top: 0;
-  z-index: 3;
-}
-.bloque-combos .bloque__combos {
-  background-color: rgb(66, 65, 65);
-  background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
-  color: white;
+.parrafos, .horarios .horarios__p, .combos .combos__p {
   font-family: "Staatliches", cursive;
-  font-size: 3rem;
+  width: 100%;
+  font-size: 1.5rem;
+  border: dashed 3px black;
+  padding: 5px;
   text-align: center;
-  border-top: solid 5px black;
-  border-bottom: solid 5px black;
+  margin-top: 10px;
 }
 
 .combos {
@@ -36,33 +30,10 @@
   grid-area: combo4;
 }
 .combos .combos__p {
-  font-family: "Staatliches", cursive;
-  width: 100%;
-  font-size: 1.5rem;
-  border: dashed 3px black;
-  padding: 5px;
-  text-align: center;
-  margin-top: 10px;
   background-color: #f5b528;
 }
 .combos .combos-imagen {
   border: dashed 3px black;
-}
-
-.bloque {
-  position: sticky;
-  top: 0;
-  z-index: 3;
-}
-.bloque .bloque__horarios {
-  background-color: rgb(66, 65, 65);
-  background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
-  color: white;
-  font-family: "Staatliches", cursive;
-  font-size: 3rem;
-  text-align: center;
-  border-top: solid 5px black;
-  border-bottom: solid 5px black;
 }
 
 .horarios {
@@ -76,65 +47,56 @@
 .horarios .horarios__1_img {
   width: 100%;
   height: 90%;
-  grid-area: horarios__1;
   border: dashed 3px black;
+  grid-area: horarios__1;
 }
 .horarios .horarios__2_img {
   width: 100%;
   height: 90%;
-  grid-area: horarios__2;
   border: dashed 3px black;
+  grid-area: horarios__2;
 }
 .horarios .horarios__3_img {
   width: 100%;
   height: 90%;
-  grid-area: horarios__3;
   border: dashed 3px black;
+  grid-area: horarios__3;
 }
 .horarios .horarios__4_img {
   width: 100%;
   height: 90%;
-  grid-area: horarios__4;
   border: dashed 3px black;
+  grid-area: horarios__4;
 }
 .horarios .horarios__5_img {
   width: 100%;
   height: 90%;
-  grid-area: horarios__5;
   border: dashed 3px black;
+  grid-area: horarios__5;
 }
 .horarios .horarios__6_img {
   width: 100%;
   height: 90%;
-  grid-area: horarios__6;
   border: dashed 3px black;
+  grid-area: horarios__6;
 }
 .horarios .horarios__7_img {
   width: 100%;
   height: 90%;
-  grid-area: horarios__7;
   border: dashed 3px black;
+  grid-area: horarios__7;
 }
 .horarios .horarios__8_img {
   width: 100%;
   height: 90%;
-  grid-area: horarios__8;
   border: dashed 3px black;
+  grid-area: horarios__8;
 }
 .horarios .horarios__9_img {
   width: 100%;
   height: 90%;
+  border: dashed 3px black;
   grid-area: horarios__9;
-  border: dashed 3px black;
-}
-.horarios .horarios__p {
-  font-family: "Staatliches", cursive;
-  width: 100%;
-  font-size: 1.5rem;
-  border: dashed 3px black;
-  padding: 5px;
-  text-align: center;
-  margin-top: 10px;
 }
 .horarios .horarios__p .funciones {
   background-color: black;
@@ -144,21 +106,6 @@
 }
 .horarios .horarios__p .funciones:hover {
   background-color: rgb(200, 24, 24);
-}
-
-.precios {
-  position: sticky;
-  top: 0;
-}
-.precios .bloque__precios {
-  background-color: rgb(66, 65, 65);
-  background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
-  color: white;
-  font-family: "Staatliches", cursive;
-  font-size: 3rem;
-  text-align: center;
-  border-top: solid 5px black;
-  border-bottom: solid 5px black;
 }
 
 .precios-pagos {
@@ -228,24 +175,10 @@
   background-color: black;
   padding: 20px 15px;
   text-transform: uppercase;
+  text-align: center;
 }
 .tabla__precios .medios table tr th:hover {
   background-color: brown;
-}
-
-.bloque-contacto {
-  position: sticky;
-  top: 0px;
-}
-.bloque-contacto .bloque__contacto {
-  background-color: rgb(66, 65, 65);
-  background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
-  color: white;
-  font-family: "Staatliches", cursive;
-  font-size: 3rem;
-  text-align: center;
-  border-top: solid 5px black;
-  border-bottom: solid 5px black;
 }
 
 .parrafo-consultas {
@@ -316,22 +249,6 @@ form ul .boton {
   font-family: "Staatliches", cursive;
   font-size: 2rem;
   padding: 10px;
-}
-
-/** PROXIMOS ESTRENOS **/
-.cartelera {
-  position: sticky;
-  top: 0;
-}
-.cartelera .bloque__proximos-estrenos {
-  background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
-  color: white;
-  font-family: "Staatliches", cursive;
-  font-size: 3rem;
-  text-align: center;
-  margin: 0px 0px;
-  border-top: solid 5px black;
-  border-bottom: solid 5px black;
 }
 
 .h-100 {
@@ -408,18 +325,7 @@ header a.navbar__link:hover {
   align-self: center;
 }
 
-.caja {
-  background-image: url(../imagenes/fondo-blanco.jpeg);
-  margin-right: 15%;
-  margin-left: 15%;
-  border: solid 3px black;
-}
-.caja .cartelera {
-  position: sticky;
-  top: 0;
-  z-index: 3;
-}
-.caja .cartelera .bloque__cartelera {
+.indicador, .caja .bloque-cartelera .bloque__cartelera, .bloque-combos .bloque__combos, .bloque-horarios .bloque__horarios, .bloque-precios .bloque__precios, .bloque-contacto .bloque__contacto, .bloque-proximos-estrenos .bloque__proximos-estrenos {
   background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
   color: white;
   font-family: "Staatliches", cursive;
@@ -428,6 +334,20 @@ header a.navbar__link:hover {
   margin: 0px 0px;
   border-top: solid 5px black;
   border-bottom: solid 5px black;
+}
+
+.bloque-indicador, .caja .bloque-cartelera, .bloque-combos, .bloque-horarios, .bloque-precios, .bloque-contacto, .bloque-proximos-estrenos {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  margin-bottom: 10px;
+}
+
+.caja {
+  background-image: url(../imagenes/fondo-blanco.jpeg);
+  margin-right: 15%;
+  margin-left: 15%;
+  border: solid 3px black;
 }
 .caja .contenedorTotal {
   display: grid;
@@ -594,18 +514,19 @@ footer .redes img {
   .caja {
     background-image: none;
     margin: 0;
+    overflow-x: hidden;
   }
-  .contenedorTotal {
+  .caja .contenedorTotal {
     margin-bottom: 20px;
     margin-top: 20px;
   }
-  .contenedorTotal .caracteristicas {
+  .caja .contenedorTotal .caracteristicas {
     width: 100%;
   }
-  .contenedorTotal .video {
+  .caja .contenedorTotal .video {
     width: 100%;
   }
-  .horarios {
+  .caja .contenedorTotal .horarios {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 1fr);
     grid-template-areas: "horarios__1 horarios__2" "horarios__3 horarios__4" "horarios__5 horarios__6" "horarios__7 horarios__8" "horarios__9 .";
@@ -618,6 +539,9 @@ footer .redes img {
 }
 /** MOBILE **/
 @media screen and (max-width: 500px) {
+  .caja {
+    overflow-x: hidden;
+  }
   .caja .contenedorTotal {
     grid-template-columns: 0.7fr 1fr;
     grid-template-rows: 0.5fr;
@@ -642,7 +566,7 @@ footer .redes img {
   .horarios {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    grid-template-areas: "horarios__1" "horarios__2" "horarios__3" "horarios__4" "horarios__5" "horario__6" "horarios__7" "horarios__8" "horarios__9";
+    grid-template-areas: "horarios__1" "horarios__2" "horarios__3" "horarios__4" "horarios__5" "horarios__6" "horarios__7" "horarios__8" "horarios__9";
     justify-items: center;
     align-items: center;
     align-content: center;

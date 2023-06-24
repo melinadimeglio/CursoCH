@@ -1,18 +1,16 @@
-.bloque{
-    position: sticky;
-    top: 0;
-    z-index: 3;
+.bloque-horarios{
+    @extend .bloque-indicador;
     .bloque__horarios{
-        background-color: rgb(66, 65, 65);
-        background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
-        color: white;
-        font-family: $letraPrincipal;
-        font-size: 3rem;
-        text-align: center;
-        border-top: solid 5px black;
-        border-bottom: solid 5px black;        
+        @extend .indicador;       
     }
 }
+
+    @mixin cards{
+        width: 100%;
+        height: 90%;
+        border: dashed 3px black;
+    }
+
 .horarios{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -24,74 +22,50 @@
     grid-gap: 10px;
     margin: 10px;
     .horarios__1_img{
-        width: 100%;
-        height: 90%;
+        @include cards;
         grid-area: horarios__1; 
-        border: dashed 3px black;
     }
     .horarios__2_img{
-        width: 100%;
-        height: 90%;
+        @include cards;
         grid-area: horarios__2;
-        border: dashed 3px black;
     }
     
     .horarios__3_img{
-        width: 100%;
-        height: 90%;
+        @include cards;
         grid-area: horarios__3;
-        border: dashed 3px black;
     }
     
     .horarios__4_img{
-        width: 100%;
-        height: 90%;
+        @include cards;
         grid-area: horarios__4;
-        border: dashed 3px black;
     }
     
     .horarios__5_img{
-        width: 100%;
-        height: 90%;
+        @include cards;
         grid-area: horarios__5;
-        border: dashed 3px black;
     }
     
     .horarios__6_img{
-        width: 100%;
-        height: 90%;
+        @include cards;
         grid-area: horarios__6;
-        border: dashed 3px black;
     }
     
     .horarios__7_img{
-        width: 100%;
-        height: 90%;
+        @include cards;
         grid-area: horarios__7;
-        border: dashed 3px black;
     }
     
     .horarios__8_img{
-        width: 100%;
-        height: 90%;
+        @include cards;
         grid-area: horarios__8;
-        border: dashed 3px black;
     }
     
     .horarios__9_img{
-        width: 100%;
-        height: 90%;
+        @include cards;
         grid-area: horarios__9;
-        border: dashed 3px black;
     }
     .horarios__p{
-        font-family: $letraPrincipal;
-        width: 100%;
-        font-size: 1.5rem;
-        border:dashed 3px black;
-        padding: 5px;
-        text-align: center;
-        margin-top: 10px;
+        @extend .parrafos;
         .funciones{
             background-color: black;
             color: whitesmoke;

@@ -76,25 +76,34 @@ body{
         }
     }
 
+    .indicador{
+        background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
+        color: white;
+        font-family: $letraPrincipal;
+        font-size: 3rem;
+        text-align: center;
+        margin:0px 0px;
+        border-top: solid 5px black;
+        border-bottom: solid 5px black;
+    }
+
+
+    .bloque-indicador{
+        position: sticky;
+        top: 0;
+        z-index: 3;
+        margin-bottom: 10px;
+    }
+
     .caja{
         background-image: url(../imagenes/fondo-blanco.jpeg);
         margin-right: 15%;
         margin-left: 15%;
         border: solid 3px black;
-        .cartelera{
-            position: sticky;
-            top: 0;
-            z-index: 3;
+        .bloque-cartelera{
+            @extend .bloque-indicador;
             .bloque__cartelera{
-                background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
-                color: white;
-                font-family: $letraPrincipal;
-                font-size: 3rem;
-                text-align: center;
-                margin:0px 0px;
-                border-top: solid 5px black;
-                border-bottom: solid 5px black;
-                
+                @extend .indicador;
             }
         }
 
@@ -239,6 +248,7 @@ body{
 /** MQ **/
 /** TABLET **/
 @media screen and (max-width: 768px){
+    
     body{
         background-image: none;
     }
@@ -250,31 +260,31 @@ body{
     .caja{
         background-image: none;
         margin: 0;
+        overflow-x: hidden;
+        .contenedorTotal{
+            margin-bottom: 20px;
+            margin-top: 20px;
+            .caracteristicas{
+                width: 100%;
+            }
+            .video{
+                width: 100%;
+            }
+            .horarios{
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(5, 1fr);
+                grid-template-areas: 
+                "horarios__1 horarios__2"
+                "horarios__3 horarios__4"
+                "horarios__5 horarios__6"
+                "horarios__7 horarios__8"
+                "horarios__9 .";
+                grid-gap: 10px;
+                padding-bottom: 30%;
+            }
+        }
     }
 
-    .contenedorTotal{
-        margin-bottom: 20px;
-        margin-top: 20px;
-        .caracteristicas{
-            width: 100%;
-        }
-        .video{
-            width: 100%;
-        }
-    }
-
-    .horarios{
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(5, 1fr);
-        grid-template-areas: 
-        "horarios__1 horarios__2"
-        "horarios__3 horarios__4"
-        "horarios__5 horarios__6"
-        "horarios__7 horarios__8"
-        "horarios__9 .";
-        grid-gap: 10px;
-        padding-bottom: 30%;
-    }
 
     .parrafo-consultas{
         margin-left: 120px;
@@ -283,7 +293,9 @@ body{
 
     /** MOBILE **/
     @media screen and (max-width: 500px){
+
         .caja{
+            overflow-x: hidden;
             .contenedorTotal{
                 grid-template-columns: 0.7fr 1fr;
                 grid-template-rows: 0.5fr;
@@ -309,6 +321,11 @@ body{
             }
         }
         
+        @mixin sizes ($width, $height){
+            width: $width;
+            height: $height;
+        }
+
     .horarios{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(5, 1fr);
@@ -318,7 +335,7 @@ body{
         "horarios__3"
         "horarios__4"
         "horarios__5"
-        "horario__6"
+        "horarios__6"
         "horarios__7" 
         "horarios__8"
         "horarios__9";
@@ -326,48 +343,39 @@ body{
         align-items: center;
         align-content: center;
         .horarios__1_img{
-            width: 100%;
-            height: 70%;
+            @include sizes (100%, 70%);
         }
         
         .horarios__2_img{
-            width: 100%;
-            height: 70%;
+            @include sizes (100%, 70%);
         }
         
         .horarios__3_img{
-            width: 100%;
-            height: 70%;
+            @include sizes (100%, 70%);
         }
         
         .horarios__4_img{
-            width: 100%;
-            height: 70%;
+            @include sizes (100%, 70%);
         }
         
         .horarios__5_img{
-            width: 100%;
-            height: 70%;
+            @include sizes (100%, 70%);
         }
         
         .horarios__6_img{
-            width: 100%;
-            height: 70%;
+            @include sizes (100%, 70%);
         }
         
         .horarios__7_img{
-            width: 100%;
-            height: 70%;
+            @include sizes (100%, 70%);
         }
         
         .horarios__8_img{
-            width: 100%;
-            height: 70%;
+            @include sizes (100%, 70%);
         }
         
         .horarios__9_img{
-            width: 100%;
-            height: 70%;
+            @include sizes (100%, 70%);
         }
     }
 

@@ -1,15 +1,7 @@
 .bloque-contacto{
-    position: sticky;
-    top: 0px;
+    @extend .bloque-indicador;
     .bloque__contacto{
-        background-color: rgb(66, 65, 65);
-        background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
-        color: white;
-        font-family: $letraPrincipal;
-        font-size: 3rem;
-        text-align: center;
-        border-top: solid 5px black;
-        border-bottom: solid 5px black;
+        @extend .indicador;
     }
 }
 .parrafo-consultas{
