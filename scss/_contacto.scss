@@ -32,6 +32,9 @@
                 background-color: black;
                 padding: 20px 15px;
                 text-transform: uppercase;
+                &:hover{
+                    background-color: brown;
+                }
                 .item-consulta{
                     text-decoration: none;
                     color: white;

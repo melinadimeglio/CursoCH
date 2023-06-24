@@ -143,6 +143,7 @@
   background-color: black;
   padding: 20px 15px;
   text-transform: uppercase;
+  text-align: center;
 }
 .tabla__precios table tr th:hover {
   background-color: brown;
@@ -213,6 +214,9 @@
   background-color: black;
   padding: 20px 15px;
   text-transform: uppercase;
+}
+.contacto .consultas table th:hover {
+  background-color: brown;
 }
 .contacto .consultas table th .item-consulta {
   text-decoration: none;
