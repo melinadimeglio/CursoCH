@@ -560,6 +560,7 @@ footer .redes img {
   }
   .caja .contenedorTotal .caracteristicas {
     grid-area: caracteristicas;
+    margin-right: 5px;
   }
   .caja .contenedorTotal .sinopsis {
     grid-area: sinopsis;
