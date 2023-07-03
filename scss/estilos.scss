@@ -264,6 +264,9 @@ body{
         .contenedorTotal{
             margin-bottom: 20px;
             margin-top: 20px;
+            background-color: rgb(247, 232, 232);
+            padding: 10px;
+            border: dashed 1px black;
             .caracteristicas{
                 width: 100%;
             }
@@ -293,7 +296,6 @@ body{
 
     /** MOBILE **/
     @media screen and (max-width: 500px){
-
         .caja{
             overflow-x: hidden;
             .contenedorTotal{
@@ -303,11 +305,14 @@ body{
                     "imagen caracteristicas"
                     "sinopsis sinopsis";
                 margin-top: 20px;
+                background-color: rgb(247, 232, 232);
+                padding: 10px;
+                border: dashed 1px black;
                 .img-1{
                     grid-area: imagen;
                     margin-left: 30px;
                     height: 70%;
-                    align-self: center;
+                    align-self: center;                    
                 }
                 .caracteristicas{
                     grid-area: caracteristicas;
