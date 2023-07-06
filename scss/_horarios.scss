@@ -13,9 +13,9 @@
         -moz-box-shadow: -2px 16px 41px -4px rgba(0,0,0,0.72);
     }
     .caja{
-    .imagen-principal{
-        width: 100%;
-    }
+        img{
+            width: 100%;
+        }
     .horarios{
         display: grid;
         grid-template-columns: repeat(3, 0.5fr);
