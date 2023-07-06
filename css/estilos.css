@@ -1,4 +1,4 @@
-.parrafos, .horarios .horarios__p, .combos .combos__p {
+.parrafos, .combos .combos__p {
   font-family: "Staatliches", cursive;
   width: 100%;
   font-size: 1.5rem;
@@ -38,8 +38,8 @@
 
 .horarios {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 0.5fr);
+  grid-template-rows: repeat(3, 0.5fr);
   grid-template-areas: "horarios__1 horarios__2 horarios__3" "horarios__4 horarios__5 horarios__6" "horarios__7 horarios__8 horarios__9";
   grid-gap: 10px;
   margin: 10px;
@@ -98,11 +98,23 @@
   border: dashed 3px black;
   grid-area: horarios__9;
 }
+.horarios .horarios__p {
+  height: 8%;
+  width: 100%;
+  font-family: "Staatliches", cursive;
+  font-size: 3rem;
+  border: dashed 3px black;
+  padding: 3px;
+  display: inline-block;
+  margin-top: 3px;
+  text-align: center;
+}
 .horarios .horarios__p .funciones {
   background-color: black;
   color: whitesmoke;
   border-radius: 3px;
   margin: 1px;
+  padding: 0 4px;
 }
 .horarios .horarios__p .funciones:hover {
   background-color: rgb(200, 24, 24);
@@ -353,12 +365,19 @@ header a.navbar__link:hover {
   margin-left: 15%;
   border: solid 3px black;
 }
+.caja hr {
+  border: dashed 4px black;
+  opacity: 0.7;
+  width: 100%;
+  margin: auto;
+}
 .caja .contenedorTotal {
   display: grid;
   grid-template-areas: "imagen sinopsis" "caracteristicas video";
   grid-template-columns: 30% 70%;
   grid-template-rows: 50% 40%;
   justify-content: center;
+  margin-top: 25px;
 }
 .caja .contenedorTotal .img-1 {
   grid-area: imagen;

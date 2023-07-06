@@ -106,7 +106,13 @@ body{
                 @extend .indicador;
             }
         }
-
+        hr{
+            border: dashed 4px black;
+            opacity: 0.7;
+            width: 100%;
+            margin: auto;
+        }
+        
         @mixin imagen{
             width: 100%;
             height: 90%;
@@ -123,6 +129,7 @@ body{
             grid-template-columns: 30% 70%;
             grid-template-rows: 50% 40%;
             justify-content: center;
+            margin-top: 25px;
             .img-1{
                 grid-area: imagen;
                 justify-self: center;
@@ -142,19 +149,15 @@ body{
                 .imagen__5{
                     @include imagen;
                 }
-
                 .imagen__6{
                     @include imagen;
                 }
-
                 .imagen__7{
                     @include imagen;
                 }
-
                 .imagen__8{
                     @include imagen;
                 }
-
                 .imagen__9{
                     @include imagen;
                 }

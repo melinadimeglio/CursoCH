@@ -13,8 +13,8 @@
 
 .horarios{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 0.5fr);
+    grid-template-rows: repeat(3, 0.5fr);
     grid-template-areas: 
     "horarios__1 horarios__2 horarios__3"
     "horarios__4 horarios__5 horarios__6"
@@ -65,12 +65,21 @@
         grid-area: horarios__9;
     }
     .horarios__p{
-        @extend .parrafos;
+        height: 8%;
+        width: 100%;
+        font-family: $letraPrincipal;
+        font-size: 3rem;
+        border:dashed 3px black;
+        padding: 3px;
+        display: inline-block;
+        margin-top: 3px;
+        text-align: center;
         .funciones{
             background-color: black;
             color: whitesmoke;
             border-radius: 3px;
             margin: 1px;
+            padding: 0 4px;
             &:hover{
                 background-color: $colorPrincipal;
             }
