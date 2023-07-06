@@ -7,9 +7,15 @@
 
     @mixin cards{
         width: 100%;
-        height: 90%;
-        border: dashed 3px black;
+        height: 80%;
+        box-shadow: -2px 16px 41px -4px rgba(0,0,0,0.72);
+        -webkit-box-shadow: -2px 16px 41px -4px rgba(0,0,0,0.72);
+        -moz-box-shadow: -2px 16px 41px -4px rgba(0,0,0,0.72);
     }
+
+.imagen-principal{
+    width: 100%;
+}
 
 .horarios{
     display: grid;
@@ -23,7 +29,7 @@
     margin: 10px;
     .horarios__1_img{
         @include cards;
-        grid-area: horarios__1; 
+        grid-area: horarios__1;
     }
     .horarios__2_img{
         @include cards;
@@ -64,12 +70,14 @@
         @include cards;
         grid-area: horarios__9;
     }
+    .horarios__contenedor{
+        border: dashed 3px black;
+    }
     .horarios__p{
-        height: 8%;
+        height: 20%;
         width: 100%;
         font-family: $letraPrincipal;
-        font-size: 3rem;
-        border:dashed 3px black;
+        font-size: 4rem;
         padding: 3px;
         display: inline-block;
         margin-top: 3px;

@@ -80,11 +80,12 @@ body{
         background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
         color: white;
         font-family: $letraPrincipal;
+        text-transform: uppercase;
         font-size: 3rem;
         text-align: center;
         margin:0px 0px;
-        border-top: solid 5px black;
-        border-bottom: solid 5px black;
+        height: 45px;
+        padding: 5px;
     }
 
 
@@ -108,7 +109,7 @@ body{
         }
         hr{
             border: dashed 4px black;
-            opacity: 0.7;
+            opacity: 0.2;
             width: 100%;
             margin: auto;
         }
@@ -117,10 +118,14 @@ body{
             width: 100%;
             height: 90%;
             margin-left: 3%;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-            border: dashed 3px black;
+            margin-top: 10%;
+            box-shadow: -2px 16px 41px -4px rgba(0,0,0,0.72);
+            -webkit-box-shadow: -2px 16px 41px -4px rgba(0,0,0,0.72);
+            -moz-box-shadow: -2px 16px 41px -4px rgba(0,0,0,0.72);
         }
-
+        .fondo{
+            background-color: rgb(228, 227, 227);
+        }
         .contenedorTotal {
             display: grid;
             grid-template-areas:
@@ -135,7 +140,6 @@ body{
                 justify-self: center;
                 .imagen__1{
                     @include imagen;
-                    margin-top: 10%;
                 }
                 .imagen__2{
                     @include imagen;
@@ -162,7 +166,6 @@ body{
                     @include imagen;
                 }
             }
-
             .sinopsis {
                 grid-area: sinopsis;
                 list-style: none;
@@ -183,7 +186,7 @@ body{
                     color: white;
                     font-family: $letraPrincipal;
                     font-size: 2rem;
-                    padding: 10px;
+                    padding: 5px;
                 }
             }
             .caracteristicas{
@@ -205,7 +208,9 @@ body{
                 grid-area: video;
                 justify-self: center;
                 align-self: start;
-                width: 95%;
+                box-shadow: -2px 16px 41px -4px rgba(0,0,0,0.72);
+                -webkit-box-shadow: -2px 16px 41px -4px rgba(0,0,0,0.72);
+                -moz-box-shadow: -2px 16px 41px -4px rgba(0,0,0,0.72);
             }
         }
     }
@@ -267,9 +272,7 @@ body{
         .contenedorTotal{
             margin-bottom: 20px;
             margin-top: 20px;
-            background-color: rgb(247, 232, 232);
             padding: 10px;
-            border: dashed 1px black;
             .caracteristicas{
                 width: 100%;
             }
@@ -288,6 +291,9 @@ body{
                 grid-gap: 10px;
                 padding-bottom: 30%;
             }
+        }
+        .horarios__p{
+            font-size: 2.5rem;
         }
     }
 
@@ -308,9 +314,7 @@ body{
                     "imagen caracteristicas"
                     "sinopsis sinopsis";
                 margin-top: 20px;
-                background-color: rgb(247, 232, 232);
                 padding: 10px;
-                border: dashed 1px black;
                 .img-1{
                     grid-area: imagen;
                     margin-left: 30px;

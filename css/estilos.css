@@ -19,21 +19,34 @@
 }
 .combos .combos__1 {
   grid-area: combo1;
+  box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
 }
 .combos .combos__2 {
   grid-area: combo2;
+  box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
 }
 .combos .combos__3 {
   grid-area: combo3;
+  box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
 }
 .combos .combos__4 {
   grid-area: combo4;
+  box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
 }
 .combos .combos__p {
   background-color: #f5b528;
 }
-.combos .combos-imagen {
-  border: dashed 3px black;
+
+.imagen-principal {
+  width: 100%;
 }
 
 .horarios {
@@ -46,64 +59,84 @@
 }
 .horarios .horarios__1_img {
   width: 100%;
-  height: 90%;
-  border: dashed 3px black;
+  height: 80%;
+  box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
   grid-area: horarios__1;
 }
 .horarios .horarios__2_img {
   width: 100%;
-  height: 90%;
-  border: dashed 3px black;
+  height: 80%;
+  box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
   grid-area: horarios__2;
 }
 .horarios .horarios__3_img {
   width: 100%;
-  height: 90%;
-  border: dashed 3px black;
+  height: 80%;
+  box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
   grid-area: horarios__3;
 }
 .horarios .horarios__4_img {
   width: 100%;
-  height: 90%;
-  border: dashed 3px black;
+  height: 80%;
+  box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
   grid-area: horarios__4;
 }
 .horarios .horarios__5_img {
   width: 100%;
-  height: 90%;
-  border: dashed 3px black;
+  height: 80%;
+  box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
   grid-area: horarios__5;
 }
 .horarios .horarios__6_img {
   width: 100%;
-  height: 90%;
-  border: dashed 3px black;
+  height: 80%;
+  box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
   grid-area: horarios__6;
 }
 .horarios .horarios__7_img {
   width: 100%;
-  height: 90%;
-  border: dashed 3px black;
+  height: 80%;
+  box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
   grid-area: horarios__7;
 }
 .horarios .horarios__8_img {
   width: 100%;
-  height: 90%;
-  border: dashed 3px black;
+  height: 80%;
+  box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
   grid-area: horarios__8;
 }
 .horarios .horarios__9_img {
   width: 100%;
-  height: 90%;
-  border: dashed 3px black;
+  height: 80%;
+  box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
   grid-area: horarios__9;
 }
+.horarios .horarios__contenedor {
+  border: dashed 3px black;
+}
 .horarios .horarios__p {
-  height: 8%;
+  height: 20%;
   width: 100%;
   font-family: "Staatliches", cursive;
-  font-size: 3rem;
-  border: dashed 3px black;
+  font-size: 4rem;
   padding: 3px;
   display: inline-block;
   margin-top: 3px;
@@ -131,6 +164,9 @@
   border: dashed 3px black;
   padding: 3px;
   display: inline-block;
+  box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
 }
 
 .tabla__precios {
@@ -147,6 +183,9 @@
   border-collapse: collapse;
   font-family: "Staatliches", cursive;
   font-size: 3rem;
+  box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
 }
 .tabla__precios table tr:hover {
   background-color: rgb(200, 24, 24);
@@ -201,6 +240,12 @@
   padding: 3px;
   display: inline-block;
   margin-left: 160px;
+  position: relative;
+  top: 120px;
+  right: 20px;
+  box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
 }
 
 .contacto {
@@ -221,6 +266,9 @@
   border-collapse: collapse;
   font-family: "Staatliches", cursive;
   font-size: 3rem;
+  box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
 }
 .contacto .consultas table th {
   background-color: black;
@@ -241,11 +289,15 @@
 form {
   background-color: white;
   padding: 10px;
-  width: 30%;
+  width: 40%;
   color: black;
   border: dashed 3px black;
   font-family: "Staatliches", cursive;
   margin-bottom: 30px;
+  font-size: 1.8rem;
+  box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
 }
 form ul {
   padding: 0px;
@@ -254,12 +306,12 @@ form ul li {
   list-style: none;
   padding: 1px;
 }
-form ul li input, form ul li textarea {
+form ul li input, form ul li textarea, form ul li select {
   width: 100%;
   height: 80%;
 }
 form ul .boton {
-  width: 90px;
+  width: 100%;
   background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
   color: white;
   font-family: "Staatliches", cursive;
@@ -345,11 +397,12 @@ header a.navbar__link:hover {
   background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
   color: white;
   font-family: "Staatliches", cursive;
+  text-transform: uppercase;
   font-size: 3rem;
   text-align: center;
   margin: 0px 0px;
-  border-top: solid 5px black;
-  border-bottom: solid 5px black;
+  height: 45px;
+  padding: 5px;
 }
 
 .bloque-indicador, .caja .bloque-cartelera, .bloque-combos, .bloque-horarios, .bloque-precios, .bloque-contacto, .bloque-proximos-estrenos {
@@ -367,9 +420,12 @@ header a.navbar__link:hover {
 }
 .caja hr {
   border: dashed 4px black;
-  opacity: 0.7;
+  opacity: 0.2;
   width: 100%;
   margin: auto;
+}
+.caja .fondo {
+  background-color: rgb(228, 227, 227);
 }
 .caja .contenedorTotal {
   display: grid;
@@ -387,65 +443,82 @@ header a.navbar__link:hover {
   width: 100%;
   height: 90%;
   margin-left: 3%;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-  border: dashed 3px black;
   margin-top: 10%;
+  box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
 }
 .caja .contenedorTotal .img-1 .imagen__2 {
   width: 100%;
   height: 90%;
   margin-left: 3%;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-  border: dashed 3px black;
+  margin-top: 10%;
+  box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
 }
 .caja .contenedorTotal .img-1 .imagen__3 {
   width: 100%;
   height: 90%;
   margin-left: 3%;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-  border: dashed 3px black;
+  margin-top: 10%;
+  box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
 }
 .caja .contenedorTotal .img-1 .imagen__4 {
   width: 100%;
   height: 90%;
   margin-left: 3%;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-  border: dashed 3px black;
+  margin-top: 10%;
+  box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
 }
 .caja .contenedorTotal .img-1 .imagen__5 {
   width: 100%;
   height: 90%;
   margin-left: 3%;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-  border: dashed 3px black;
+  margin-top: 10%;
+  box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
 }
 .caja .contenedorTotal .img-1 .imagen__6 {
   width: 100%;
   height: 90%;
   margin-left: 3%;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-  border: dashed 3px black;
+  margin-top: 10%;
+  box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
 }
 .caja .contenedorTotal .img-1 .imagen__7 {
   width: 100%;
   height: 90%;
   margin-left: 3%;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-  border: dashed 3px black;
+  margin-top: 10%;
+  box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
 }
 .caja .contenedorTotal .img-1 .imagen__8 {
   width: 100%;
   height: 90%;
   margin-left: 3%;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-  border: dashed 3px black;
+  margin-top: 10%;
+  box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
 }
 .caja .contenedorTotal .img-1 .imagen__9 {
   width: 100%;
   height: 90%;
   margin-left: 3%;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-  border: dashed 3px black;
+  margin-top: 10%;
+  box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
 }
 .caja .contenedorTotal .sinopsis {
   grid-area: sinopsis;
@@ -468,7 +541,7 @@ header a.navbar__link:hover {
   color: white;
   font-family: "Staatliches", cursive;
   font-size: 2rem;
-  padding: 10px;
+  padding: 5px;
 }
 .caja .contenedorTotal .caracteristicas {
   grid-area: caracteristicas;
@@ -489,7 +562,9 @@ header a.navbar__link:hover {
   grid-area: video;
   justify-self: center;
   align-self: start;
-  width: 95%;
+  box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: -2px 16px 41px -4px rgba(0, 0, 0, 0.72);
 }
 
 footer {
@@ -542,9 +617,7 @@ footer .redes img {
   .caja .contenedorTotal {
     margin-bottom: 20px;
     margin-top: 20px;
-    background-color: rgb(247, 232, 232);
     padding: 10px;
-    border: dashed 1px black;
   }
   .caja .contenedorTotal .caracteristicas {
     width: 100%;
@@ -558,6 +631,9 @@ footer .redes img {
     grid-template-areas: "horarios__1 horarios__2" "horarios__3 horarios__4" "horarios__5 horarios__6" "horarios__7 horarios__8" "horarios__9 .";
     grid-gap: 10px;
     padding-bottom: 30%;
+  }
+  .caja .horarios__p {
+    font-size: 2.5rem;
   }
   .parrafo-consultas {
     margin-left: 120px;
@@ -573,9 +649,7 @@ footer .redes img {
     grid-template-rows: 0.5fr;
     grid-template-areas: "imagen caracteristicas" "sinopsis sinopsis";
     margin-top: 20px;
-    background-color: rgb(247, 232, 232);
     padding: 10px;
-    border: dashed 1px black;
   }
   .caja .contenedorTotal .img-1 {
     grid-area: imagen;
