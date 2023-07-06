@@ -305,147 +305,148 @@ body{
 
     /** MOBILE **/
     @media screen and (max-width: 500px){
-        .caja{
-            overflow-x: hidden;
-            .contenedorTotal{
-                grid-template-columns: 0.7fr 1fr;
-                grid-template-rows: 0.5fr;
-                grid-template-areas: 
-                    "imagen caracteristicas"
-                    "sinopsis sinopsis";
-                margin-top: 20px;
-                padding: 10px;
-                .img-1{
-                    grid-area: imagen;
-                    margin-left: 30px;
-                    height: 70%;
-                    align-self: center;                    
+            .caja{
+                overflow-x: hidden;
+                .contenedorTotal{
+                    grid-template-columns: 0.7fr 1fr;
+                    grid-template-rows: 0.5fr;
+                    grid-template-areas: 
+                        "imagen caracteristicas"
+                        "sinopsis sinopsis";
+                    margin-top: 20px;
+                    padding: 10px;
+                    .img-1{
+                        grid-area: imagen;
+                        margin-left: 30px;
+                        height: 70%;
+                        align-self: center;                    
+                    }
+                    .caracteristicas{
+                        grid-area: caracteristicas;
+                        margin-right: 5px;
+                    }
+                    .sinopsis{
+                        grid-area: sinopsis;
+                    }
+                    .video{
+                        display: none;
+                    }
                 }
-                .caracteristicas{
-                    grid-area: caracteristicas;
-                    margin-right: 5px;
-                }
-                .sinopsis{
-                    grid-area: sinopsis;
-                }
-                .video{
-                    display: none;
-                }
+            
+            
+            @mixin sizes ($width, $height){
+                width: $width;
+                height: $height;
+            }
+
+        .horarios{
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(5, 1fr);
+            grid-template-areas: 
+            "horarios__1"
+            "horarios__2"
+            "horarios__3"
+            "horarios__4"
+            "horarios__5"
+            "horarios__6"
+            "horarios__7" 
+            "horarios__8"
+            "horarios__9";
+            justify-items: center;
+            align-items: center;
+            align-content: center;
+            .horarios__1_img{
+                @include sizes (100%, 70%);
+            }
+            
+            .horarios__2_img{
+                @include sizes (100%, 70%);
+            }
+            
+            .horarios__3_img{
+                @include sizes (100%, 70%);
+            }
+            
+            .horarios__4_img{
+                @include sizes (100%, 70%);
+            }
+            
+            .horarios__5_img{
+                @include sizes (100%, 70%);
+            }
+            
+            .horarios__6_img{
+                @include sizes (100%, 70%);
+            }
+            
+            .horarios__7_img{
+                @include sizes (100%, 70%);
+            }
+            
+            .horarios__8_img{
+                @include sizes (100%, 70%);
+            }
+            
+            .horarios__9_img{
+                @include sizes (100%, 70%);
             }
         }
-        
-        @mixin sizes ($width, $height){
-            width: $width;
-            height: $height;
+
+        .h-100{
+            height: 300px !important;
+        }
+        .combos{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            grid-template-areas:
+            "combo1"
+            "combo2"
+            "combo3"
+            "combo4";
+            justify-content: center;
+            justify-items: center;
         }
 
-    .horarios{
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(5, 1fr);
-        grid-template-areas: 
-        "horarios__1"
-        "horarios__2"
-        "horarios__3"
-        "horarios__4"
-        "horarios__5"
-        "horarios__6"
-        "horarios__7" 
-        "horarios__8"
-        "horarios__9";
-        justify-items: center;
-        align-items: center;
-        align-content: center;
-        .horarios__1_img{
-            @include sizes (100%, 70%);
-        }
-        
-        .horarios__2_img{
-            @include sizes (100%, 70%);
-        }
-        
-        .horarios__3_img{
-            @include sizes (100%, 70%);
-        }
-        
-        .horarios__4_img{
-            @include sizes (100%, 70%);
-        }
-        
-        .horarios__5_img{
-            @include sizes (100%, 70%);
-        }
-        
-        .horarios__6_img{
-            @include sizes (100%, 70%);
-        }
-        
-        .horarios__7_img{
-            @include sizes (100%, 70%);
-        }
-        
-        .horarios__8_img{
-            @include sizes (100%, 70%);
-        }
-        
-        .horarios__9_img{
-            @include sizes (100%, 70%);
-        }
-    }
 
-    .h-100{
-        height: 300px !important;
-    }
-    .combos{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        grid-template-areas:
-        "combo1"
-        "combo2"
-        "combo3"
-        "combo4";
-        justify-content: center;
-        justify-items: center;
-    }
-
-
-    .parrafo-consultas{
-        display: none;
-    }
-
-    .contacto{
-        justify-content: center;
-        .consultas{
+        .parrafo-consultas{
             display: none;
         }
-    }
 
-    form{
-        width: 100%;
-        margin-right: 40px;
-        margin-top: 50px;
-    }
-
-
-    .precios-pagos p{
-        width: 33%;
-        text-align: center;
-    }
-    
-    .tabla__precios{
-        display: grid;
-        text-align: center;
-        .medios{
-            margin: 0;
-            table{
-                width: 100%;
-                font-size: 1.5rem;
-                margin: 0px;
+        .contacto{
+            justify-content: center;
+            .consultas{
+                display: none;
             }
         }
-    }
 
-    .redes{
-        display: none;
+        form{
+            width: 100%;
+            margin-right: 40px;
+            margin-top: 50px;
+        }
+
+
+        .precios-pagos p{
+            width: 33%;
+            text-align: center;
+        }
+        
+        .tabla__precios{
+            display: grid;
+            text-align: center;
+            .medios{
+                margin: 0;
+                table{
+                    width: 100%;
+                    font-size: 1.5rem;
+                    margin: 0px;
+                }
+            }
+        }
+
+        .redes{
+            display: none;
+        }
     }
 }
