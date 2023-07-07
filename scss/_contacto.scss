@@ -78,13 +78,16 @@ form{
                 height: 80%;
             }
         }
-        .boton{
+        label{
             width: 100%;
-            background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
-            color: white;
-            font-family: $letraPrincipal;
-            font-size: 2rem;
-            padding: 10px;
+            .boton{
+                background-image: url(../imagenes/Copia\ de\ matrix.jpeg);
+                color: white;
+                font-family: $letraPrincipal;
+                font-size: 2rem;
+                padding: 10px;
+                width: 100%;
+            }
         }  
     }
 }
