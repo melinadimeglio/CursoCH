@@ -7,21 +7,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="./css/estilos.css" rel="stylesheet">
     <link rel="shortcut icon" href="imagenes/pelicula (1).png" type="image/x-icon">
     <title>CineMatrix</title>
-    <meta name="description" content="Cinematrix te espera para que puedas ver todo lo nuevo en peliculas a traves de nuestra fabulosa cartelera.">
-    <meta name="keywords" content="peliculas, cartelera, cine, entretenimiento, proyeccion, audiovisual, actores, actrices, directores">
+    <meta name="description"
+        content="Cinematrix te espera para que puedas ver todo lo nuevo en peliculas a traves de nuestra fabulosa cartelera.">
+    <meta name="keywords"
+        content="peliculas, cartelera, cine, entretenimiento, proyeccion, audiovisual, actores, actrices, directores">
 </head>
+
 <body>
     <header>
         <!--MENU DE NAVEGACION-->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand navbar__logo" href="index.html"><span class=color__1>Cine</span><span class="color__2">Matrix</span></a>
-                <button class="navbar-toggler navbar__button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand navbar__logo" href="index.html"><span class=color__1>Cine</span><span
+                        class="color__2">Matrix</span></a>
+                <button class="navbar-toggler navbar__button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
@@ -58,34 +65,36 @@
 
     <!--SELECTOR DE PELICULAS DISABLED-->
     <div class="seleccion">
-            <div class="seleccion__peliculas">
-                <select name="pelicula" id="pelicula">
-                    <option value="titanic" >Titanic - 2D Cast</option>
-                    <option value="Sev">Seven - 2D Cast</option>
-                    <option value="Pre">Mujer bonita - 2D Cast</option>
-                    <option value="Mat">Matrix - 2D Cast</option>
-                    <option value="Mom">La Momia - 2D Cast</option>
-                    <option value="Ang">Mi Pobre Angelito- 2D Cast</option>
-                    <option value="Gho">Ghost - 2D Cast</option>
-                    <option value="Bic">Bichos - 2D Cast</option>
-                    <option value="Ros">Belleza Americana - 2D Cast</option>
-                </select>
-            </div>
+        <div class="seleccion__peliculas">
+            <select name="pelicula" id="pelicula">
+                <option value="titanic">Titanic - 2D Cast</option>
+                <option value="Sev">Seven - 2D Cast</option>
+                <option value="Pre">Mujer bonita - 2D Cast</option>
+                <option value="Mat">Matrix - 2D Cast</option>
+                <option value="Mom">La Momia - 2D Cast</option>
+                <option value="Ang">Mi Pobre Angelito- 2D Cast</option>
+                <option value="Gho">Ghost - 2D Cast</option>
+                <option value="Bic">Bichos - 2D Cast</option>
+                <option value="Ros">Belleza Americana - 2D Cast</option>
+            </select>
+        </div>
 
         <div class="menu">
-            <ul class="menu__numeros">
-                <li> 
-                    <a class="menu__numeros__2" href="#">1</a>
-                    <a class="menu__numeros__2" href="#">2</a>
-                    <a class="menu__numeros__2" href="#">3</a>
-                    <a class="menu__numeros__2" href="#">4</a>
-                    <a class="menu__numeros__2" href="#">5</a>
-                    <a class="menu__numeros__2" href="#">6</a>
-                    <a class="menu__numeros__2" href="#">7</a>
-                    <a class="menu__numeros__2" href="#">8</a>
-                    <a class="menu__numeros__2" href="#">9</a>
-                </li>
-            </ul>
+            <nav>
+                <ul class="menu__numeros">
+                    <li>
+                        <a class="menu__numeros__2" href="#">1</a>
+                        <a class="menu__numeros__2" href="#">2</a>
+                        <a class="menu__numeros__2" href="#">3</a>
+                        <a class="menu__numeros__2" href="#">4</a>
+                        <a class="menu__numeros__2" href="#">5</a>
+                        <a class="menu__numeros__2" href="#">6</a>
+                        <a class="menu__numeros__2" href="#">7</a>
+                        <a class="menu__numeros__2" href="#">8</a>
+                        <a class="menu__numeros__2" href="#">9</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </div>
 
@@ -131,55 +140,56 @@
             </button>
         </div>
 
-
         <div class="bloque-cartelera">
             <h1 class="bloque__cartelera">cartelera</h1>
-        </div> 
+        </div>
 
         <!--TITANIC-->
         <section class="contenedorTotal">
-                <div class="img-1">
-                    <img class="imagen__1" data-aos="flip-left" src="imagenes/titanicsinopsis.jpeg" alt="titanic sinopsis">
-                </div>
-
-                <div class="caracteristicas">    
-                    <ul>
-                        <li class="subtitulo">Genero:</li>
-                        <li>Romance</li>
-                        <li class="subtitulo">Protagonistas:
-                        <li>Leonardo DiCaprio. Kate Winslet.</li>
-                        <li class="subtitulo">Director:</li>
-                        <li>James Cameron</li>
-                        <li class="subtitulo">Nacionalidad:</li>
-                        <li>Estados Unidos</li>
-                        <li class="subtitulo">Calificacion:</li>
-                        <li>Apta para mayores de 16 años</li>
-                        <li class="subtitulo">Duracion:</li>
-                        <li>108 MIN</li>
-                        <li class="subtitulo">Distribuidora:</li>
-                        <li>Buena Vista</li>
-                    </ul>
-                </div>
-
-                <div class="sinopsis">   
-                        <h2><span class="titulo__pelicula">TITANIC</span></h2>
-                        <p><i>Jack</i> es un joven artista que gana un <b>pasaje</b> para viajar a <b>América</b> en el <b>Titanic</b>, el <b>transatlántico</b> más <b>grande</b> y <b>seguro</b> jamás construido. A bordo del buque conoce a <i>Rose</i>, una <b>chica</b> de <b>clase alta</b> que viaja con su <b>madre</b> y su <b>prometido</b> <i>Cal</i>, un <b>millonario</b> <b>engreído</b> a quien solo interesa el prestigio  de la familia de su prometida. <i>Jack</i> y <i>Rose</i> se <b>enamoran</b> a pesar de las <b>trabas</b> que ponen la madre de ella y <i>Cal</i> en su <b>relación</b>. Mientras, el <b>lujoso</b> transatlántico se <b>acerca</b> a un <b>inmenso</b> <b>iceberg</b>.</p>
-                        <input class="boton" type="submit" value="Comprar">    
-                    </div>
-
-                <div class="video" data-aos="fade-left">
-                    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/CHekzSiZjrY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
+            <div class="img-1">
+                <img class="imagen__1" data-aos="flip-left" src="imagenes/titanicsinopsis.jpeg" alt="titanic sinopsis">
+            </div>
+            <div class="caracteristicas">
+                <ul>
+                    <li class="subtitulo">Genero:</li>
+                    <li>Romance</li>
+                    <li class="subtitulo">Protagonistas:
+                    <li>Leonardo DiCaprio. Kate Winslet.</li>
+                    <li class="subtitulo">Director:</li>
+                    <li>James Cameron</li>
+                    <li class="subtitulo">Nacionalidad:</li>
+                    <li>Estados Unidos</li>
+                    <li class="subtitulo">Calificacion:</li>
+                    <li>Apta para mayores de 16 años</li>
+                    <li class="subtitulo">Duracion:</li>
+                    <li>108 MIN</li>
+                    <li class="subtitulo">Distribuidora:</li>
+                    <li>Buena Vista</li>
+                </ul>
+            </div>
+            <div class="sinopsis">
+                <h2><span class="titulo__pelicula">Titanic</span></h2>
+                <p><i>Jack</i> es un joven artista que gana un <b>pasaje</b> para viajar a <b>América</b> en el
+                    <b>Titanic</b>, el <b>transatlántico</b> más <b>grande</b> y <b>seguro</b> jamás construido. A bordo
+                    del buque conoce a <i>Rose</i>, una <b>chica</b> de <b>clase alta</b> que viaja con su <b>madre</b>
+                    y su <b>prometido</b> <i>Cal</i>, un <b>millonario</b> <b>engreído</b> a quien solo interesa el
+                    prestigio de la familia de su prometida. <i>Jack</i> y <i>Rose</i> se <b>enamoran</b> a pesar de las
+                    <b>trabas</b> que ponen la madre de ella y <i>Cal</i> en su <b>relación</b>. Mientras, el
+                    <b>lujoso</b> transatlántico se <b>acerca</b> a un <b>inmenso</b> <b>iceberg</b>.
+                </p>
+                <label for="boton"><input class="boton" type="submit" id="boton" value="Comprar"></label>
+            </div>
+            <div class="video" data-aos="fade-left">
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/CHekzSiZjrY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
         </section>
-            
 
         <!--SE7EN-->
         <section class="contenedorTotal fondo">
             <div class="img-1">
-                <img class="imagen__2" data-aos="flip-left" src="imagenes/Seven_Se7en-734875211-large.jpeg" alt="seven sinopsis">
+                <img class="imagen__2" data-aos="flip-left" src="imagenes/Seven_Se7en-734875211-large.jpeg" alt="se7en sinopsis">
             </div>
-
-            <div class="caracteristicas">    
+            <div class="caracteristicas">
                 <ul>
                     <li class="subtitulo">Genero:</li>
                     <li>Thriller</li>
@@ -197,25 +207,30 @@
                     <li>Buena Vista</li>
                 </ul>
             </div>
-
-            <div class="sinopsis">   
-                <h2><span class="titulo__pelicula">SE7EN</span></h2>
-                <p>El veterano teniente <i>Somerset</i> está a punto de jubilarse y ser reemplazado por el impulsivo detective <i>David Mills</i>. Ambos tendrán que colaborar en la <b>resolución</b> de unos <b>asesinatos</b> cometidos por un <b>psicópata</b> que se basa en los <b>siete pecados capitales</b>.
+            <div class="sinopsis">
+                <h2><span class="titulo__pelicula">Se7en</span></h2>
+                <p>El veterano teniente <i>Somerset</i> está a punto de jubilarse y ser reemplazado por el impulsivo
+                    detective <i>David Mills</i>. Ambos tendrán que colaborar en la <b>resolución</b> de unos
+                    <b>asesinatos</b> cometidos por un <b>psicópata</b> que se basa en los <b>siete pecados
+                        capitales</b>.
                 </p>
-                <input class="boton" type="submit" value="Comprar">    
+                <label for="boton"><input class="boton" type="submit" id="boton" value="Comprar"></label>
             </div>
-                        
             <div class="video" data-aos="fade-left">
-                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/xhzBmjdehPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/xhzBmjdehPA"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
             </div>
         </section>
 
         <!--MUJER BONITA-->
         <section class="contenedorTotal">
             <div class="img-1">
-                <img class="imagen__3" data-aos="flip-left" src="imagenes/pretty woman sinopsis.jpeg" alt="pretty woman sinopsis">
+                <img class="imagen__3" data-aos="flip-left" src="imagenes/pretty woman sinopsis.jpeg" alt="pretty woman sinopsis"
+                    alt="pretty woman sinopsis">
             </div>
-            <div class="caracteristicas">    
+            <div class="caracteristicas">
                 <ul>
                     <li class="subtitulo">Genero:</li>
                     <li>Romance</li>
@@ -233,15 +248,22 @@
                     <li>Buena Vista</li>
                 </ul>
             </div>
-
-            <div class="sinopsis">   
-                <h2><span class="titulo__pelicula">MUJER BONITA</span></h2>
-                <p>Durante un viaje de negocios a <b>Los Ángeles</b>, <i>Edward</i>, un ejecutivo que compra y vende <b>empresas</b>, encuentra a la <b>prostituta</b> <i>Vivian</i>. Después de pasar una primera noche con ella, <i>Edward</i> le ofrece <b>dinero</b> para que pase toda la semana con él y le acompañe a diversos actos sociales. A medida que van pasando los días, los dos descubren que tienen que superar <b>diversos obstáculos</b> para poder <b>unir</b>sus mundos tan <b>distintos</b>.</p>
-                <input class="boton" type="submit" value="Comprar">    
+            <div class="sinopsis">
+                <h2><span class="titulo__pelicula">Mujer bonita</span></h2>
+                <p>Durante un viaje de negocios a <b>Los Ángeles</b>, <i>Edward</i>, un ejecutivo que compra y vende
+                    <b>empresas</b>, encuentra a la <b>prostituta</b> <i>Vivian</i>. Después de pasar una primera noche
+                    con ella, <i>Edward</i> le ofrece <b>dinero</b> para que pase toda la semana con él y le acompañe a
+                    diversos actos sociales. A medida que van pasando los días, los dos descubren que tienen que superar
+                    <b>diversos obstáculos</b> para poder <b>unir</b>sus mundos tan <b>distintos</b>.
+                </p>
+                <label for="boton"><input class="boton" type="submit" id="boton" value="Comprar"></label>
             </div>
-
             <div class="video" data-aos="fade-left">
-                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/DvPEFrTBu_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/DvPEFrTBu_0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
         </section>
 
         <!--MATRIX-->
@@ -249,7 +271,7 @@
             <div class="img-1">
                 <img class="imagen__4" data-aos="flip-left" src="imagenes/Matrix-155050517-large.jpeg" alt="matrix sinopsis">
             </div>
-            <div class="caracteristicas">    
+            <div class="caracteristicas">
                 <ul>
                     <li class="subtitulo">Genero:</li>
                     <li>Ciencia Ficcion</li>
@@ -267,22 +289,29 @@
                     <li>Buena Vista</li>
                 </ul>
             </div>
-            <div class="sinopsis">   
-                <h2><span class="titulo__pelicula">MATRIX</span></h2>
-                <p>El <b>programador informático</b> <i>Thomas Anderson</i>, más conocido en el mundo de los <b>"hacker"</b> como <i>Neo</i>, está en el punto de mira del temible <i>agente Smith</i>. Otros dos piratas informáticos, <i>Trinity y Morfeo</i>, se ponen en contacto con <i>Neo</i> para ayudarlo a <b>escapar</b>. <b>Matrix te posee. Sigue al conejo blanco.</b></p>
-                <input class="boton" type="submit" value="Comprar">    
+            <div class="sinopsis">
+                <h2><span class="titulo__pelicula">Matrix</span></h2>
+                <p>El <b>programador informático</b> <i>Thomas Anderson</i>, más conocido en el mundo de los
+                    <b>"hacker"</b> como <i>Neo</i>, está en el punto de mira del temible <i>agente Smith</i>. Otros dos
+                    piratas informáticos, <i>Trinity y Morfeo</i>, se ponen en contacto con <i>Neo</i> para ayudarlo a
+                    <b>escapar</b>. <b>Matrix te posee. Sigue al conejo blanco.</b>
+                </p>
+                <label for="boton"><input class="boton" type="submit" id="boton" value="Comprar"></label>
             </div>
             <div class="video" data-aos="fade-left">
-                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/m8e-FF8MsqU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/m8e-FF8MsqU"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
             </div>
         </section>
 
         <!--LA MOMIA-->
         <section class="contenedorTotal">
             <div class="img-1">
-                <img class="imagen__5" data-aos="flip-left" src="imagenes/la momia sinopsis.jpeg" alt="la momia sinopsis">
+                <img class="imagen__5" data-aos="flip-left" src="imagenes/la momia sinopsis.jpeg" alt="la momia">
             </div>
-            <div class="caracteristicas">    
+            <div class="caracteristicas">
                 <ul>
                     <li class="subtitulo">Genero:</li>
                     <li>Aventuras</li>
@@ -300,13 +329,18 @@
                     <li>Buena Vista</li>
                 </ul>
             </div>
-            <div class="sinopsis">   
+            <div class="sinopsis">
                 <h2><span class="titulo__pelicula">LA MOMIA</span></h2>
-                <p><i>Rick O'Connell </i> y un compañero descubren <b>las ruinas de Hamunaptra</b>. Después vuelven al mismo lugar con una <i>egiptóloga</i> y su <i>hermano</i>. Allí coinciden con un grupo de americanos que provocan la <b>resurrección</b> de la <b>momia</b> de un <b>diabólico sacerdote egipcio</b>.</p>
-                <input class="boton" type="submit" value="Comprar">    
+                <p><i>Rick O'Connell </i> y un compañero descubren <b>las ruinas de Hamunaptra</b>. Después vuelven al
+                    mismo lugar con una <i>egiptóloga</i> y su <i>hermano</i>. Allí coinciden con un grupo de americanos
+                    que provocan la <b>resurrección</b> de la <b>momia</b> de un <b>diabólico sacerdote egipcio</b>.</p>
+                <label for="boton"><input class="boton" type="submit" id="boton" value="Comprar"></label>
             </div>
             <div class="video" data-aos="fade-left">
-                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/CT6yWV9e4Ig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/CT6yWV9e4Ig"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
             </div>
         </section>
 
@@ -315,7 +349,7 @@
             <div class="img-1">
                 <img class="imagen__6" data-aos="flip-left" src="imagenes/mi pobre angelito sinopsis.jpeg" alt="mi pobre angelito sinopsis">
             </div>
-            <div class="caracteristicas">    
+            <div class="caracteristicas">
                 <ul>
                     <li class="subtitulo">Genero:</li>
                     <li>Comedia</li>
@@ -333,23 +367,31 @@
                     <li>Buena Vista</li>
                 </ul>
             </div>
-            <div class="sinopsis">   
-                <h2><span class="titulo__pelicula">MI POBRE ANGELITO</span></h2>
-                <p>El joven <i>Kevin McCallister</i> se porta mal la noche antes de ir de <b>viaje</b> a París, por lo que su madre le obliga a dormir en el ático. Al día siguiente y con todas las prisas, la familia va al aeropuerto y <b>se olvida de <i>Kevin</i></b>. Entonces el niño se despierta <b>solo</b> en casa y cree que ha hecho realidad su sueño de vivir sin familia. Sin embargo, el entusiasmo de <i>Kevin</i> se desvanece cuando descubre que dos <b>delincuentes</b> planean <b>robar</b> la <b>casa</b> de los <i>McCallister</i> y él deberá <b>protegerla</b>.
+            <div class="sinopsis">
+                <h2><span class="titulo__pelicula">Mi pobre angelito</span></h2>
+                <p>El joven <i>Kevin McCallister</i> se porta mal la noche antes de ir de <b>viaje</b> a París, por lo
+                    que su madre le obliga a dormir en el ático. Al día siguiente y con todas las prisas, la familia va
+                    al aeropuerto y <b>se olvida de <i>Kevin</i></b>. Entonces el niño se despierta <b>solo</b> en casa
+                    y cree que ha hecho realidad su sueño de vivir sin familia. Sin embargo, el entusiasmo de
+                    <i>Kevin</i> se desvanece cuando descubre que dos <b>delincuentes</b> planean <b>robar</b> la
+                    <b>casa</b> de los <i>McCallister</i> y él deberá <b>protegerla</b>.
                 </p>
-                <input class="boton" type="submit" value="Comprar">    
+                <label for="boton"><input class="boton" type="submit" id="boton" value="Comprar"></label>
             </div>
             <div class="video" data-aos="fade-left">
-                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/I-zoVUYHPMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/I-zoVUYHPMM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
             </div>
         </section>
 
         <!--EL GUARDAESPALDAS-->
         <section class="contenedorTotal">
             <div class="img-1">
-                <img class="imagen__7" data-aos="flip-left" src="imagenes/el-guardaespaldas .jpeg" alt="el guardaespaldas sinopsis">
+                <img class="imagen__7" data-aos="flip-left" src="imagenes/el-guardaespaldas .jpeg" alt="el guardaespaldas">
             </div>
-            <div class="caracteristicas">    
+            <div class="caracteristicas">
                 <ul>
                     <li class="subtitulo">Genero:</li>
                     <li>Romance</li>
@@ -367,14 +409,17 @@
                     <li>Buena Vista</li>
                 </ul>
             </div>
-            <div class="sinopsis">   
+            <div class="sinopsis">
                 <h2><span class="titulo__pelicula">EL GUARDAESPALDAS</span></h2>
                 <p>Un <i>agente del servicio secreto</i>, ahora <b>guardaespaldas</b>, encuentra el <b>peligro</b> y el <b>amor</b> cuando protege a una <b>cantante</b>.
                 </p>
-                <input class="boton" type="submit" value="Comprar">    
+                <label for="boton"><input class="boton" type="submit" id="boton" value="Comprar"></label>
             </div>
             <div class="video" data-aos="fade-left">
-                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/4JFRdJTszRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/4JFRdJTszRM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
             </div>
         </section>
 
@@ -383,7 +428,7 @@
             <div class="img-1">
                 <img class="imagen__8" data-aos="flip-left" src="imagenes/bichos.jpeg" alt="bichos sinopsis">
             </div>
-            <div class="caracteristicas">    
+            <div class="caracteristicas">
                 <ul>
                     <li class="subtitulo">Genero:</li>
                     <li>Aventura</li>
@@ -401,15 +446,19 @@
                     <li>Buena Vista</li>
                 </ul>
             </div>
-            <div class="sinopsis">   
+            <div class="sinopsis">
                 <h2><span class="titulo__pelicula">BICHOS</span></h2>
-                <p>Una <b>hormiga</b> realiza una <b>misión peligrosa</b> para <b>proteger</b> a su colonia de un <b>ejército de saltamontes terroristas</b>.
+                <p>Una <b>hormiga</b> realiza una <b>misión peligrosa</b> para <b>proteger</b> a su colonia de un
+                    <b>ejército de saltamontes terroristas</b>.
                 </p>
-                <input class="boton" type="submit" value="Comprar">    
+                <label for="boton"><input class="boton" type="submit" id="boton" value="Comprar"></label>
             </div>
             <div class="video" data-aos="fade-left">
-                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/38wy8FR_8aM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div> 
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/38wy8FR_8aM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
         </section>
 
         <!--BELLEZA AMERICANA-->
@@ -417,7 +466,7 @@
             <div class="img-1">
                 <img class="imagen__9" data-aos="flip-left" src="imagenes/belleza-americana.jpeg" alt="belleza americana sinopsis">
             </div>
-            <div class="caracteristicas">    
+            <div class="caracteristicas">
                 <ul>
                     <li class="subtitulo">Genero:</li>
                     <li>Aventura</li>
@@ -435,15 +484,19 @@
                     <li>Buena Vista</li>
                 </ul>
             </div>
-            <div class="sinopsis">   
+            <div class="sinopsis">
                 <h2><span class="titulo__pelicula">BELLEZA AMERICANA</span></h2>
-                <p><i>Lester Burnham</i> es un <b>cuarentón</b> en crisis, <b>cansado</b> de su trabajo y de su mujer, que despierta de su letargo cuando conoce a la <b>atractiva amiga de su hija</b>, a la que intentará <b>impresionar</b> a toda costa.
+                <p><i>Lester Burnham</i> es un <b>cuarentón</b> en crisis, <b>cansado</b> de su trabajo y de su mujer,
+                    que despierta de su letargo cuando conoce a la <b>atractiva amiga de su hija</b>, a la que intentará
+                    <b>impresionar</b> a toda costa.
                 </p>
-                <input class="boton" type="submit" value="Comprar">    
+                <label for="boton"><input class="boton" type="submit" id="boton" value="Comprar"></label>
             </div>
-
             <div class="video" data-aos="fade-left">
-                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/GqXz2NeSpY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/GqXz2NeSpY8"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
             </div>
         </section>
     </main>
@@ -464,13 +517,18 @@
             <p class="footer__parrafo"> © Copyright Cinematrix. Todos los derechos reservados.</p>
         </div>
         <div class="redes">
-            <a href="https://www.facebook.com" alt="facebook" target="__blank"><img src="imagenes/facebook.png"></a>
-            <a href="https://www.instagram.com" alt="instagram" target="__blank"><img src="imagenes/instagram.png"></a>
-            <a href="https://www.whatsapp.com" alt="whatsapp" target="__blank"><img src="imagenes/whatsapp.png"></a>
+            <a href="https://www.facebook.com" alt="facebook" target="__blank"><img src="imagenes/facebook.png" alt="facebook"></a>
+            <a href="https://www.instagram.com" alt="instagram" target="__blank"><img src="imagenes/instagram.png" alt="instagram"></a>
+            <a href="https://www.whatsapp.com" alt="whatsapp" target="__blank"><img src="imagenes/whatsapp.png" alt="whatsapp"></a>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <!--SCRIPT-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();

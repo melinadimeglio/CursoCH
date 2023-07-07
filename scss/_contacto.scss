@@ -14,9 +14,9 @@
     position: relative;
     top: 120px;
     right: 20px;
-    box-shadow: -2px 16px 41px -4px rgba(0,0,0,0.72);
-    -webkit-box-shadow: -2px 16px 41px -4px rgba(0,0,0,0.72);
-    -moz-box-shadow: -2px 16px 41px -4px rgba(0,0,0,0.72);
+    box-shadow: $boxShadow;
+    -webkit-box-shadow: $boxShadow;
+    -moz-box-shadow: $boxShadow;
 }
 .contacto{
     display: flex;
@@ -34,9 +34,9 @@
             border-collapse: collapse;
             font-family: $letraPrincipal;
             font-size: 3rem;
-            box-shadow: -2px 16px 41px -4px rgba(0,0,0,0.72);
-            -webkit-box-shadow: -2px 16px 41px -4px rgba(0,0,0,0.72);
-            -moz-box-shadow: -2px 16px 41px -4px rgba(0,0,0,0.72);
+            box-shadow: $boxShadow;
+            -webkit-box-shadow: $boxShadow;
+            -moz-box-shadow: $boxShadow;
             th{
                 background-color: black;
                 padding: 20px 15px;
@@ -65,15 +65,15 @@ form{
     font-family: $letraPrincipal;
     margin-bottom: 30px;   
     font-size: 1.8rem; 
-    box-shadow: -2px 16px 41px -4px rgba(0,0,0,0.72);
-    -webkit-box-shadow: -2px 16px 41px -4px rgba(0,0,0,0.72);
-    -moz-box-shadow: -2px 16px 41px -4px rgba(0,0,0,0.72);
+    box-shadow: $boxShadow;
+    -webkit-box-shadow: $boxShadow;
+    -moz-box-shadow: $boxShadow;
     ul{
         padding: 0px;
         li{
             list-style: none;
             padding: 1px;
-            input, textarea, select{
+            input, textarea, select, label{
                 width: 100%;
                 height: 80%;
             }

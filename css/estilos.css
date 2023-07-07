@@ -306,7 +306,7 @@ form ul li {
   list-style: none;
   padding: 1px;
 }
-form ul li input, form ul li textarea, form ul li select {
+form ul li input, form ul li textarea, form ul li select, form ul li label {
   width: 100%;
   height: 80%;
 }

@@ -73,28 +73,28 @@
         </div>
 
         <div class="menu">
-            <ul class="menu__numeros">
-                <li>
-                    <a class="menu__numeros__2" href="#">1</a>
-                    <a class="menu__numeros__2" href="#">2</a>
-                    <a class="menu__numeros__2" href="#">3</a>
-                    <a class="menu__numeros__2" href="#">4</a>
-                    <a class="menu__numeros__2" href="#">5</a>
-                    <a class="menu__numeros__2" href="#">6</a>
-                    <a class="menu__numeros__2" href="#">7</a>
-                    <a class="menu__numeros__2" href="#">8</a>
-                    <a class="menu__numeros__2" href="#">9</a>
-                </li>
-            </ul>
+            <nav>
+                <ul class="menu__numeros">
+                    <li>
+                        <a class="menu__numeros__2" href="#">1</a>
+                        <a class="menu__numeros__2" href="#">2</a>
+                        <a class="menu__numeros__2" href="#">3</a>
+                        <a class="menu__numeros__2" href="#">4</a>
+                        <a class="menu__numeros__2" href="#">5</a>
+                        <a class="menu__numeros__2" href="#">6</a>
+                        <a class="menu__numeros__2" href="#">7</a>
+                        <a class="menu__numeros__2" href="#">8</a>
+                        <a class="menu__numeros__2" href="#">9</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </div>
 
     <main class="caja">
-        <!--CAROUSEL-->
         <div>
             <img class="imagen-principal" src="../imagenes/bichos-2.jpeg" alt="bichos">
         </div>
-
         <div class="bloque-contacto">
             <h1 class="bloque__contacto">contacto</h1>
         </div>
@@ -121,27 +121,37 @@
             <!--FORMULARIO DE CONTACTO-->
                 <form>
                     <ul>
-                        <li><label for="nombre">Nombre</label>
-                        <input type="text" class="field" name="Nombre" id="Nombre" required></li>
-
-                        <li><label for="email">Correo Electronico</label>
-                        <input type="email" class="field" name="email" id="email" required></li>
-
-                        <li><label for="number">Telefono</label>
-                        <input type="number" class="field" name="telefono" id="telefono" required></li>
-                    
-                        <li><label for="motivo">Motivo</label>
-                        <select name="motivo" id="motivo">
-                            <option value="Elija un motivo">Elija un motivo</option>
-                            <option value="Consulta en general">Consulta en general</option>
-                            <option value="Para hacer una critica">Para hacer una critica</option>
-                            <option value="Por una pelicula en proyeccion">Por una pelicula en proyeccion</option>
-                            <option value="Por un proximo estreno">Por un proximo estreno</option>
-                            <option value="Otro motivo diferente...">Otro motivo diferente...</option>
-                        </select></li>
-                        <li><label for="consulta">Consulta</label>
-                        <textarea class="field" name="consulta" id="consulta" cols="30" rows="10"></textarea></li>
-                        <input class="boton" type="submit" value="Enviar">   
+                        <li>
+                            <label for="nombre">Nombre
+                                <input type="text" class="field" name="nombre" id="nombre" required></li>
+                            </label>
+                        <li>
+                            <label for="email">Correo Electronico
+                                <input type="email" class="field" name="email" id="email" required></li>
+                            </label>
+                        <li>
+                            <label for="number">Telefono
+                                <input type="number" class="field" name="telefono" id="telefono" required></li>
+                            </label>
+                        <li>
+                            <label for="motivo">Motivo
+                                <select name="motivo" id="motivo">
+                                    <option value="Elija un motivo">Elija un motivo</option>
+                                    <option value="Consulta en general">Consulta en general</option>
+                                    <option value="Para hacer una critica">Para hacer una critica</option>
+                                    <option value="Por una pelicula en proyeccion">Por una pelicula en proyeccion</option>
+                                    <option value="Por un proximo estreno">Por un proximo estreno</option>
+                                    <option value="Otro motivo diferente...">Otro motivo diferente...</option>
+                                </select>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="consulta">Consulta</label>
+                                <textarea class="field" name="consulta" id="consulta" cols="30" rows="10"></textarea>
+                        </li>
+                        <label for="boton">
+                            <input class="boton" type="submit" id="boton" value="Enviar">
+                        </label>
                     </ul> 
                 </form>
         </section>
@@ -163,11 +173,12 @@
             <p class="footer__parrafo"> © Copyright Cinematrix. Todos los derechos reservados.</p>
         </div>
         <div class="redes">
-            <a href="https://www.facebook.com" alt="facebook" target="__blank"><img src="../imagenes/facebook.png"></a>
-            <a href="https://www.instagram.com" alt="instagram" target="__blank"><img src="../imagenes/instagram.png"></a>
-            <a href="https://www.whatsapp.com" alt="whatsapp" target="__blank"><img src="../imagenes/whatsapp.png"></a>
+            <a href="https://www.facebook.com" alt="facebook" target="__blank"><img src="../imagenes/facebook.png" alt="facebook"></a>
+            <a href="https://www.instagram.com" alt="instagram" target="__blank"><img src="../imagenes/instagram.png" alt="instagram"></a>
+            <a href="https://www.whatsapp.com" alt="whatsapp" target="__blank"><img src="../imagenes/whatsapp.png" alt="whatsapp"></a>
         </div>
     </footer>
+    <!--SCRIPT-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 </body>

@@ -14,9 +14,9 @@
         border:dashed 3px black;
         padding: 3px;
         display: inline-block;
-        box-shadow: -2px 16px 41px -4px rgba(0,0,0,0.72);
-            -webkit-box-shadow: -2px 16px 41px -4px rgba(0,0,0,0.72);
-            -moz-box-shadow: -2px 16px 41px -4px rgba(0,0,0,0.72);
+        box-shadow: $boxShadow;
+        -webkit-box-shadow: $boxShadow;
+        -moz-box-shadow: $boxShadow;
     }
 }
 .tabla__precios{
@@ -32,9 +32,9 @@
         border-collapse: collapse;
         font-family: $letraPrincipal;
         font-size: 3rem;
-        box-shadow: -2px 16px 41px -4px rgba(0,0,0,0.72);
-        -webkit-box-shadow: -2px 16px 41px -4px rgba(0,0,0,0.72);
-        -moz-box-shadow: -2px 16px 41px -4px rgba(0,0,0,0.72);
+        box-shadow: $boxShadow;
+        -webkit-box-shadow: $boxShadow;
+        -moz-box-shadow: $boxShadow;
         tr{
             &:hover{
                 background-color: $colorPrincipal;
